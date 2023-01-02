@@ -1,0 +1,99 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: min(90%, 300px);
+  font-family: sans-serif;
+  position: relative;
+}
+
+label {
+  font-size: 1.15rem;
+  margin-bottom: 0.5em;
+}
+
+#password-field {
+  height: 35px;
+  font-size: 1.15rem;
+  padding: 0.85em;
+  letter-spacing: 3px;
+  border-radius: 0.25em;
+}
+
+.validation-checks {
+  margin: 1em 0;
+  padding: 1em 1em 1em 2em;
+  box-shadow: 0 0 2px #708090;
+  background-color: #301934;
+  border-radius: 0.65em;
+  transition: all 300ms ease-in;
+}
+
+.validation-checks ul {
+  list-style-type: none;
+}
+
+.validation-checks li {
+  position: relative;
+  margin: 0.45em 0;
+  transition: all 150ms ease-in;
+  color: #708090;
+  font-weight: 400;
+}
+
+.validation-checks li::before {
+  content: "";
+  position: absolute;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #708090;
+  outline: 1px solid #708090;
+  outline-offset: 2px;
+  left: -1em;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: inherit;
+}
+
+.hide {
+  display: none;
+}
+
+.icon {
+  position: absolute;
+  right: 0;
+  top: 2.5em;
+  cursor: pointer;
+}
+
+.icon i {
+  position: absolute;
+  right: 0.5em;
+}
+
+/* additional CSS classes */
+.validation-checks li.checked::before {
+  background-color: #0bda51;
+  outline: 2px solid #0bda51;
+  outline-offset: 0;
+}
+
+.validation-checks li.checked {
+  color: #50c878;
+  font-weight: 700;
+}
