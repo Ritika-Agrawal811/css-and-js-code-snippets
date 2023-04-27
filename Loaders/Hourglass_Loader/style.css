@@ -1,0 +1,91 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+}
+
+.hourglass {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0);
+  width: 10em;
+  height: 10em;
+  font-size: 10px;
+}
+
+.triangle {
+  width: 10em;
+  height: 5em;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: relative;
+}
+
+.upper-triangle {
+  background-color: #383636;
+  transform: rotate(180deg);
+}
+
+.upper-triangle::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip-path: inherit;
+  background-color: #fec763;
+  animation: empty 3s linear infinite;
+}
+
+.lower-triangle {
+  background-color: #fec763;
+}
+
+.lower-triangle::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fec763;
+  z-index: 2;
+}
+
+.lower-triangle::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip-path: inherit;
+  background-color: #383636;
+  animation: fill 3s linear infinite;
+}
+
+@keyframes empty {
+  0% {
+    height: 5em;
+  }
+
+  90%,
+  100% {
+    height: 0;
+  }
+}
+
+@keyframes fill {
+  0% {
+    height: 5em;
+  }
+
+  90%,
+  100% {
+    height: 0;
+  }
+}
