@@ -1,0 +1,133 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(138, 214, 237, 0.83);
+}
+
+.multiselect-dropdown {
+  position: relative;
+  width: min(90%, 350px);
+  height: 60px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #aaa;
+  font-family: sans-serif;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.icon {
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.menu {
+  list-style-type: none;
+  width: 100%;
+  top: 120%;
+  position: absolute;
+  border-radius: inherit;
+  box-shadow: 0 2px 5px #aaa;
+  height: 0;
+  transition: height 300ms ease-in-out;
+  cursor: pointer;
+  overflow-y: scroll;
+  background-color: #fff;
+}
+
+.menu li {
+  padding: 1em;
+  transition: background-color 300ms ease-in;
+  opacity: 0;
+  transition: opacity 400ms ease-in-out;
+}
+
+.menu li:hover {
+  background-color: rgba(87, 82, 82, 0.25);
+}
+
+.multiselect-dropdown.show .menu {
+  height: 200px;
+}
+
+.multiselect-dropdown.show .menu li {
+  opacity: 1;
+}
+
+.selectedList-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  border-radius: inherit;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: auto;
+  padding: 0.5em;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #800080;
+}
+
+.selectedItem {
+  position: relative;
+  border: 2px solid #800080;
+  padding: 0.1em 0 0.1em 0.75em;
+  height: 35px;
+  border-radius: inherit;
+  margin: 0.25em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: zoomIn 350ms ease-in-out 1;
+}
+
+.selectedItem .fa-solid {
+  margin: 0 0.5em;
+}
+
+.zoomOut {
+  animation: zoomOut 400ms ease-in-out 1;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
