@@ -1,0 +1,78 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fefefe;
+}
+
+.download-btn {
+  position: relative;
+  font-size: 1.15rem;
+  width: 8em;
+  height: 3em;
+  font-weight: 700;
+  border: 0;
+  border-radius: 100vmax;
+  color: #fff;
+  background-color: rgb(29, 155, 240);
+  cursor: pointer;
+  transition: all 300ms ease-in;
+}
+
+.download-btn::before {
+  content: "Done";
+  position: absolute;
+  color: rgb(29, 165, 29);
+  left: 50%;
+  top: -2em;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+.download-btn.clicked {
+  width: 20em;
+  height: 0.5em;
+  background-color: rgb(206, 224, 237);
+  animation: fill 1.5s ease-out 1 forwards;
+  animation-delay: 450ms;
+}
+
+.download-btn.clicked::before {
+  animation: show 250ms ease-in 1 forwards;
+  animation-delay: 2s;
+}
+
+@keyframes fill {
+  0% {
+    box-shadow: 0 0 0 rgb(29, 155, 240) inset;
+  }
+
+  95% {
+    box-shadow: 20em 0 0 rgb(29, 155, 240) inset;
+  }
+
+  100% {
+    box-shadow: 20em 0 0 rgb(29, 165, 29) inset;
+  }
+}
+
+@keyframes show {
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  .download-btn {
+    font-size: 0.85rem;
+  }
+}

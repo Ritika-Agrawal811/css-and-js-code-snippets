@@ -1,0 +1,107 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: min(50%, 180px);
+  height: 50px;
+  position: relative;
+  border-radius: 50px;
+  transition: width 350ms ease-in;
+}
+
+.subscribe-btn,
+.emailInput {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.subscribe-btn {
+  border: 0;
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  background-color: rgb(217, 20, 20);
+  color: #fff;
+  cursor: pointer;
+  transition: width 350ms ease-in, left 350ms ease-in;
+  z-index: 3;
+}
+
+.container::before {
+  content: "@";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #696969;
+  background-color: #ccc;
+  height: 100%;
+  width: 10%;
+  display: grid;
+  place-items: center;
+  z-index: 2;
+  opacity: 0;
+}
+
+.emailInput {
+  border: 2px solid #ccc;
+  z-index: 1;
+  outline: 0;
+  font-size: 1.15rem;
+  padding-left: 3em;
+}
+
+.emailInput:placeholder {
+  color: #696969;
+}
+
+.subscribe-btn.clicked {
+  width: 11.5%;
+  left: 89.5%;
+  font-size: 1.5rem;
+  background-color: #4cbb17;
+}
+
+.container.clicked {
+  width: min(95%, 450px);
+  border-radius: 0;
+}
+
+.container.clicked::before {
+  opacity: 1;
+}
+
+.subscribe-btn.green-bg {
+  background-color: #4cbb17;
+}
+
+@media (max-width: 424px) {
+  .emailInput {
+    font-size: 1rem;
+  }
+
+  .container.clicked {
+    height: 40px;
+  }
+
+  .container::before {
+    font-size: 1.25rem;
+  }
+}

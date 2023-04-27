@@ -1,0 +1,64 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.send-btn {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 100vmax;
+  background-color: #0096ff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: relative;
+  box-shadow: 0 0 0 #50c878 inset, 0 2px 5px #0095ffa6;
+  transition: all 350ms ease-in-out;
+  cursor: pointer;
+}
+
+.send-btn.checked {
+  box-shadow: 200px 0 0 #50c878 inset, 0 2px 5px #50c878a6;
+}
+
+.circle {
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.plane-icon {
+  position: absolute;
+  left: -0.5em;
+  top: 50%;
+  transform: translateY(-50%) rotate(-25deg);
+}
+
+.rotateCircle {
+  animation: rotate 3s ease-in-out 1;
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
+}
+
+@keyframes rotate {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

@@ -1,0 +1,86 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: min(90%, 350px);
+  height: 8em;
+  overflow: hidden;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 0;
+  padding: 0.5em 1.5em;
+  font-size: 24px;
+  background: #d22b2b;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 350ms ease-in-out;
+  box-shadow: 0 0 5px #aaa;
+  backface-visibility: hidden;
+  transform: translate(-50%, -50%) translateZ(200px) perspective(1000px);
+}
+
+.confirm-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform 350ms ease-in-out;
+  transition-delay: 50ms;
+  transform-origin: bottom;
+  transform: rotateX(180deg) perspective(500px);
+  backface-visibility: hidden;
+}
+
+.btn {
+  padding: 0.75em 2em;
+  border: 0;
+  color: #0096ff;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.yes-btn {
+  background-color: #0096ff;
+  color: #fff;
+}
+
+.delete-btn.clicked {
+  transform: translate(-50%, -50%) rotateX(180deg) translateZ(50px)
+    perspective(800px);
+}
+
+.confirm-box.show {
+  transform: rotateX(0) perspective(800px);
+}
+
+@media (max-width: 320px) {
+  .container {
+    height: 95px;
+  }
+
+  .deleteBtn {
+    font-size: 20px;
+  }
+}
