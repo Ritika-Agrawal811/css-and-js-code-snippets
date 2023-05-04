@@ -1,15 +1,27 @@
 # css-and-js-code-snippets
 
-A collection of real-life code snippets written in CSS and JavaScript for every web development project.
+A collection of real-life code snippets written in CSS and JavaScript for every web development project. Each folder contains the stylesheet and script file (if required).
 
-| Category      | Snippet Title                                                                                                                                    |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Buttons       | Delete Button <br/> Download Button <br/> Floating Action Button </br> Search Button <br/> Send Button <br/> Share Button <br/> Subscribe Button |
-| Hover Effects | Button Border Fill Up <br/> Button Stripes                                                                                                       |
-| Loaders       | Cube Loader <br/> Hourglass Loader <br/> Text Loader <br/> Whirlpool Loader                                                                      |
-| Form Fields   | Multiselect Dropdown <br/> Star Rating Field <br/> Password Validation                                                                           |
+#### Categories
+
+This repository is divided into mentioned categories. You may navigate accordingly to find cool web components to add to your project!
+
+- Buttons
+- Loaders
+- Hover Effects
+- Form Fields
 
 ## Buttons
+
+Buttons help to lead the user to a specific action on a web page. I've got cool animated buttons for different actions for you. Pick the right one for your project!
+
+- Delete Button
+- Download Button
+- Floating Action Button
+- Search Button
+- Send Button
+- Share Button
+- Subscribe Button
 
 ### Delete Button
 
