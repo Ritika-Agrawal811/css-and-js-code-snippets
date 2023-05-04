@@ -29,7 +29,7 @@ A flip delete button to show the confirm box before deleting! Uses JS to handle 
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Delete_Button).
 
 <br/>
-<img src="https://drive.google.com/uc?export=view&id=1fdoN7qtZgq2tTgbiOwefkMOFCcnPgBdH"/>
+<img src="https://drive.google.com/uc?export=view&id=1fdoN7qtZgq2tTgbiOwefkMOFCcnPgBdH" width="75%" height="75%"/>
 
 ### Download Button :zap:
 
@@ -37,4 +37,4 @@ A Download Button animated to show download progress! Uses JS to handle the clic
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Download_Button).
 
 <br/>
-<img src="https://drive.google.com/uc?export=view&id=1i5rgyboMC3hkMIC5hfM74Tpg7_N-Kp2X"/>
+<img src="https://drive.google.com/uc?export=view&id=1i5rgyboMC3hkMIC5hfM74Tpg7_N-Kp2X" width="75%" height="75%"/>
