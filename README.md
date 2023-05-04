@@ -25,8 +25,10 @@ Buttons help to lead the user to a specific action on a web page. I've got cool 
 
 ### Delete Button
 
+A flip delete button to show the confirm box before deleting! Uses JS to handle the click events. View code ![here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Delete_Button).
+
 <br/>
- <img src="https://drive.google.com/uc?export=view&id=1fdoN7qtZgq2tTgbiOwefkMOFCcnPgBdH"/>
+<img src="https://drive.google.com/uc?export=view&id=1fdoN7qtZgq2tTgbiOwefkMOFCcnPgBdH"/>
 
 ### Download Button
 
