@@ -6,7 +6,7 @@ A collection of real-life code snippets written in CSS and JavaScript for every 
 
 This repository is divided into mentioned categories. You may navigate accordingly to find cool web components to add to your project!
 
-- Buttons
+- [Buttons](#buttons-sparkles)
 - Loaders
 - Hover Effects
 - Form Fields
@@ -15,13 +15,13 @@ This repository is divided into mentioned categories. You may navigate according
 
 Buttons help to lead the user to a specific action on a web page. I've got cool animated buttons for different actions for you. Pick the right one for your project!
 
-- Delete Button
-- Download Button
-- Floating Action Button
-- Search Button
-- Send Button
-- Share Button
-- Subscribe Button
+- [Delete Button](#delete-button-zap)
+- [Download Button](#download-button-zap)
+- [Floating Action Button](#floating-action-button-zap)
+- [Search Button](#search-button-zap)
+- [Send Button](#send-button-zap)
+- [Share Button](#share-button-zap)
+- [Subscribe Button](#subscribe-button-zap)
 
 ### Delete Button :zap:
 
