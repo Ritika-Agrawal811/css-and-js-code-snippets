@@ -8,9 +8,9 @@ This repository is divided into mentioned categories. You may navigate according
 
 - [Buttons](#buttons-sparkles)
 - [Loaders](#loaders-sparkles)
-- Form Fields
+- [Form Fields](#form-fields-sparkles)
 - Hover Effects
-- Miscellaneous
+- [Miscellaneous](#miscellaneous-sparkles)
 
 ## Buttons :sparkles:
 
