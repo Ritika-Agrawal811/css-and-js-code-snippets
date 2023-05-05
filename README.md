@@ -132,6 +132,9 @@ A list of various form fields including password validation, feedback fields, la
 - [Multiselect Dropdown](#multiselect-dropdown-zap)
 - [Password Validation](#password-validation-zap)
 - [Star Rating Field](#star-rating-field-zap)
+- [Feedback Field](#feedback-field-zap)
+- [Label Animation](#label-animation-zap)
+- [Toggle Password Field](#toggle-password-field-zap)
 
 ### Multiselect Dropdown :zap:
 
@@ -160,11 +163,40 @@ A Star Rating Field to get user rating! Uses clip-path to draw the stars and JS 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1HFrRJ4cIkAptsVyViv4ZrmMXi4fFN55b" width="85%" height="85%"/>
 
+### Feedback Field :zap:
+
+A Star Rating Field to get user rating! Uses clip-path to draw the stars and JS for the functionality.
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Form%20Fields/Feedback_Field).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1SDFroODDpN2RTGxOO8fb9RxtLVb52KYt" width="85%" height="85%"/>
+
+### Label Animation :zap:
+
+An Input Label Animation for textboxes in forms which uses CSS pseudo classes and position properties!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Form%20Fields/Label_Animation).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=18JGKB2wsG4tXW30b5HxICYEF9rCIckZe" width="85%" height="85%"/>
+
+### Toggle Password Field :zap:
+
+A Toggle Password Field to show/hide password! Uses fontawesome for icons and JS to handle click events.
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Form%20Fields/Toggle_Password_Field).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1iTg6-QIYgGosQCvHWBULRI1hPnljr7r4" width="85%" height="85%"/>
+
 ## Miscellaneous :sparkles:
 
 Here is a collection of some random web components that may be used to practice CSS and JS concepts or even be included in projects to enhance its UI.
 
 - [To-do List Check Item](#to-do-list-check-item-zap)
+- [Side Navigation Bar](#side-navigation-bar-zap)
+- [Video Clipped Inside Text](#video-clipped-inside-text-zap)
 
 ### To-do List Check Item :zap:
 
@@ -174,3 +206,21 @@ A To-do List Check Item animation made with the help of "checkbox" input tag!
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1gZy5lMiGtgIcUfeV3bXGnGeOUmZhX-oA" width="85%" height="85%"/>
+
+### Side Navigation Bar :zap:
+
+A Side Navigation Bar to navigate through different sections on a web page using anchor tags and scroll event!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Miscellaneous/Side_Navigation_Bar).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1S76fl8Xqo72CQmmBuCqEauroL4C2wQHS" width="85%" height="85%"/>
+
+### Video Clipped Inside Text :zap:
+
+Clipping videos inside text using CSS mix-blend properties and looping through them using JS!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Miscellaneous/Video_Clipped_Inside_Text).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1F6r2F3HKCp004es9kgcr6Lu3f_nYzmjv" width="85%" height="85%"/>

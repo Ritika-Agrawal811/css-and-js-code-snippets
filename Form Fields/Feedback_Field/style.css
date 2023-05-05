@@ -1,0 +1,208 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --circleExpressionColor: #fff;
+  --circleColor: rgb(170, 170, 170);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.feedback-container {
+  width: 95%;
+  max-width: 500px;
+  height: 9.5em;
+  position: relative;
+}
+
+h2 {
+  font-size: 1.15rem;
+  font-family: sans-serif;
+  color: rgb(100, 100, 100);
+  text-align: center;
+}
+
+.feedback-bar {
+  position: absolute;
+  width: 95%;
+  padding: 2em 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback-bar::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(190, 190, 190);
+  top: 50%;
+  left: 0;
+}
+
+.circle {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: var(--circleColor);
+  position: relative;
+  cursor: pointer;
+  transition: transform 300ms ease-in-out;
+}
+
+.circle::after {
+  content: "";
+  position: absolute;
+  color: rgb(180, 180, 180);
+  font-size: 0.85rem;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1.5em;
+  font-family: sans-serif;
+  font-weight: bold;
+  transition: all 150ms ease-in-out;
+}
+
+#rv-terrible::after {
+  content: "Terrible";
+}
+
+#rv-bad::after {
+  content: "Bad";
+}
+
+#rv-okay::after {
+  content: "Okay";
+}
+
+#rv-good::after {
+  content: "Good";
+}
+
+#rv-great::after {
+  content: "Great";
+}
+
+.eye {
+  width: 0.625em;
+  height: 0.625em;
+  background-color: var(--circleExpressionColor);
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  z-index: 3;
+}
+
+.eyeLeft {
+  left: 20%;
+}
+
+.eyeRight {
+  left: 60%;
+}
+
+#rv-terrible .eye,
+#rv-bad .eye {
+  height: 0.5em;
+  border-radius: 0 0 100% 100%;
+}
+
+#rv-terrible .eyeLeft,
+#rv-bad .eyeRight {
+  transform: rotate(10deg);
+}
+
+#rv-terrible .eyeRight,
+#rv-bad .eyeLeft {
+  transform: rotate(-10deg);
+}
+
+.mouth {
+  position: absolute;
+  background-color: var(--circleExpressionColor);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#rv-okay .mouth {
+  width: 1.375em;
+  height: 0.25em;
+  border-radius: 1em;
+  bottom: 0.65em;
+  transform: translateX(-50%) rotate(-10deg);
+}
+
+#rv-great .mouth {
+  width: 1.5625em;
+  height: 0.5em;
+  bottom: 0.5em;
+  border-radius: 0 0 120px 120px;
+}
+
+:is(#rv-good, #rv-terrible, #rv-bad) .mouth {
+  width: 1.75em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: var(--circleColor);
+}
+
+#rv-good .mouth {
+  bottom: 0.5em;
+  border-bottom: 5px solid var(--circleExpressionColor);
+}
+
+:is(#rv-terrible, #rv-bad) .mouth {
+  bottom: 0.1em;
+  border-top: 5px solid var(--circleExpressionColor);
+}
+
+.grow {
+  --circleExpressionColor: rgb(30, 30, 30);
+  --circleColor: #fff44f;
+  transform: scale(1.2);
+}
+
+.grow::after {
+  color: rgb(30, 30, 30);
+}
+
+#rv-bad.grow {
+  --circleColor: #f88379;
+}
+
+#rv-terrible.grow {
+  --circleColor: #ff3131;
+}
+
+#rv-good.grow {
+  --circleColor: #b6ff63;
+}
+#rv-great.grow {
+  --circleColor: #00de55;
+}
+
+@media (max-width: 424px) {
+  .circle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .circle {
+    font-size: 12px;
+  }
+}
