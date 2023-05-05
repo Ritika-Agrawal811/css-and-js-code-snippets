@@ -223,4 +223,4 @@ Clipping videos inside text using CSS mix-blend properties and looping through t
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Miscellaneous/Video_Clipped_Inside_Text).
 
 <br/>
-<img src="https://drive.google.com/uc?export=view&id=1F6r2F3HKCp004es9kgcr6Lu3f_nYzmjv" width="85%" height="85%"/>
+<img src="https://drive.google.com/uc?export=view&id=1P9KoyFtbAUF-mBW2_fiBd_3Q_wrm8-8O" width="85%" height="85%"/>

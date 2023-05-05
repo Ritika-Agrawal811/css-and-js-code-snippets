@@ -24,7 +24,7 @@ function loop() {
     } else {
       videoPlay(i);
     }
-  }, 8000);
+  }, 4000);
 }
 
 loop();
