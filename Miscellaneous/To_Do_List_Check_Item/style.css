@@ -1,0 +1,83 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  font-size: 1.75rem;
+  margin: 0 0.25em;
+  font-family: sans-serif;
+  position: relative;
+  cursor: pointer;
+}
+
+label::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: rgb(150, 150, 150);
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  transition: all 250ms linear;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 2.5em;
+  height: 2.5em;
+  font-size: 10px;
+  border: 2px solid #000;
+  background: transparent;
+  outline: none;
+  border-radius: 15%;
+  transition: all 150ms linear;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:before {
+  content: "\2713";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(16, 200, 65);
+  font-size: 0;
+  font-weight: 700;
+  transition: all 250ms linear;
+}
+
+input[type="checkbox"]:checked:before {
+  font-size: 1.75rem;
+}
+
+input[type="checkbox"]:checked {
+  border: none;
+}
+
+input[type="checkbox"]:checked ~ label::before {
+  width: 100%;
+}
+
+input[type="checkbox"]:checked ~ label {
+  color: rgb(180, 180, 180);
+}
