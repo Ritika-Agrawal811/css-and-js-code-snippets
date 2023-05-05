@@ -29,7 +29,7 @@ A Flip Delete Button to show the confirm box before deleting! Uses JS to handle 
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Delete_Button).
 
 <br/>
-<img src="https://drive.google.com/uc?export=view&id=1fdoN7qtZgq2tTgbiOwefkMOFCcnPgBdH" width="75%" height="75%"/>
+<img src="https://drive.google.com/uc?export=view&id=1fdoN7qtZgq2tTgbiOwefkMOFCcnPgBdH" width="85%" height="85%"/>
 
 ### Download Button :zap:
 
@@ -37,7 +37,7 @@ A Download Button animated to show download progress! Uses JS to handle the clic
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Download_Button).
 
 <br/>
-<img src="https://drive.google.com/uc?export=view&id=1i5rgyboMC3hkMIC5hfM74Tpg7_N-Kp2X" width="75%" height="75%"/>
+<img src="https://drive.google.com/uc?export=view&id=1i5rgyboMC3hkMIC5hfM74Tpg7_N-Kp2X" width="85%" height="85%"/>
 
 ### Floating Action Button :zap:
 
@@ -45,7 +45,7 @@ A Floating Action Button made with "checkbox" input tag to show options when cli
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Floating_Action_Button).
 
 <br/>
-<img src="https://drive.google.com/uc?export=view&id=1D7BSniZ-0eUBtgJx5kNnRSz9dhjWWuU4" width="75%" height="75%"/>
+<img src="https://drive.google.com/uc?export=view&id=1D7BSniZ-0eUBtgJx5kNnRSz9dhjWWuU4" width="85%" height="85%"/>
 
 ### Search Button :zap:
 
@@ -53,7 +53,7 @@ A Search Button slide in animation for navigation bars! Uses JS to handle the cl
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Search_Button).
 
 <br/>
-<img src="https://drive.google.com/uc?export=view&id=11Qfnu3iO-BGtO9cfEja6PPvFTquBSmD8" width="75%" height="75%"/>
+<img src="https://drive.google.com/uc?export=view&id=11Qfnu3iO-BGtO9cfEja6PPvFTquBSmD8" width="85%" height="85%"/>
 
 ### Send Button :zap:
 
@@ -61,7 +61,7 @@ A Send Button with paper plane flying animation to show "sent" state! Uses JS to
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Send_Button).
 
 <br/>
-<img src="https://drive.google.com/uc?export=view&id=1ktFozrqzTiqh9oe_GslRbttMepL6oreq" width="75%" height="75%"/>
+<img src="https://drive.google.com/uc?export=view&id=1ktFozrqzTiqh9oe_GslRbttMepL6oreq" width="85%" height="85%"/>
 
 ### Share Button :zap:
 
@@ -69,7 +69,7 @@ A Share Button showing all social icons when hovered over! Fontawesome is used f
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Share_Button).
 
 <br/>
-<img src="https://drive.google.com/uc?export=view&id=13d8pQuqtF6vXDzW3Kw9fADrgrYzpp5KZ" width="75%" height="75%"/>
+<img src="https://drive.google.com/uc?export=view&id=13d8pQuqtF6vXDzW3Kw9fADrgrYzpp5KZ" width="85%" height="85%"/>
 
 ### Subscribe Button :zap:
 
@@ -77,4 +77,4 @@ A Subscribe Button animation to take in a user's email and get them subscribed t
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Subscribe_Button).
 
 <br/>
-<img src="https://drive.google.com/uc?export=view&id=1hWgRNK_WhozRgLYA8KCebSIG1MUIJ9Uj" width="75%" height="75%"/>
+<img src="https://drive.google.com/uc?export=view&id=1hWgRNK_WhozRgLYA8KCebSIG1MUIJ9Uj" width="85%" height="85%"/>
