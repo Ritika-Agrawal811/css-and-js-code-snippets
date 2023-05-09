@@ -23,6 +23,7 @@ Buttons help to lead the user to a specific action on a web page. I've got cool 
 - [Send Button](#send-button-zap)
 - [Share Button](#share-button-zap)
 - [Subscribe Button](#subscribe-button-zap)
+- [Ripple Button]
 
 ### Delete Button :zap:
 
@@ -79,6 +80,14 @@ A Subscribe Button animation to take in a user's email and get them subscribed t
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1hWgRNK_WhozRgLYA8KCebSIG1MUIJ9Uj" width="85%" height="85%"/>
+
+### Ripple Button :zap:
+
+A Ripple Button Click Effect which uses JS to generate ripples and CSS for the animation!<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Ripple_Button).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1Y3eIDXLi6wi3nGmO1OuyyFCjs3ViX5Bc" width="85%" height="85%"/>
 
 ## Loaders :sparkles:
 
