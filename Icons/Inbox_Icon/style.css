@@ -1,0 +1,138 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.container {
+  width: 15em;
+  height: 10em;
+  position: relative;
+  animation: notify 750ms ease-in-out 1 forwards;
+}
+
+@keyframes notify {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.7);
+  }
+}
+
+.container::before,
+.container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 5em solid transparent;
+  border-bottom: 4.5em solid transparent;
+}
+
+.container::before {
+  left: 0;
+  border-left: 4.5em solid #000;
+}
+
+.container::after {
+  right: 0;
+  border-right: 4.5em solid #000;
+}
+
+.trapezium {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  border-left: 5em solid transparent;
+  border-right: 5em solid transparent;
+  border-bottom: 5em solid #000;
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transform-origin: top;
+  border-top: 8em solid #fff;
+  border-left: 8em solid transparent;
+  border-right: 8em solid transparent;
+  z-index: 3;
+  animation: open 1s ease-in 1 375ms forwards;
+}
+
+@keyframes open {
+  0%,
+  65%,
+  100% {
+    transform: translateX(-50%) rotateX(0);
+  }
+
+  85% {
+    transform: translateX(-50%) rotateX(35deg);
+  }
+
+  40%,
+  45% {
+    transform: translateX(-50%) rotateX(85deg);
+  }
+}
+
+.triangle::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top: 7em solid #000;
+  border-left: 7.5em solid transparent;
+  border-right: 7.5em solid transparent;
+}
+
+.count {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: #e20606;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #fff;
+  right: -0.5em;
+  top: -0.5em;
+  transform: scale(0);
+  animation: scaleUp 300ms ease-in-out 750ms 1 forwards;
+  z-index: 5;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

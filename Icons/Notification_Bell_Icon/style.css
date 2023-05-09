@@ -1,0 +1,128 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 10em;
+  height: 10em;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+svg {
+  width: 8em;
+  fill: #0b0b31;
+  transform-origin: 50% 0%;
+  animation: sway 1s ease-in-out 1;
+  animation-fill-mode: forwards;
+}
+
+.clapper {
+  position: absolute;
+  width: 5px;
+  height: 90%;
+  background-color: transparent;
+  transform-origin: top;
+  animation: swayReverse 1s ease-in-out 1;
+}
+
+.clapper::before {
+  content: "";
+  position: absolute;
+  width: 2em;
+  height: 1em;
+  left: -0.8em;
+  bottom: -0.5em;
+  background-color: #0b0b31;
+  border-radius: 50%/0 0 100% 100%;
+  animation: sway 1s ease-in-out 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sway {
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  25% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes swayReverse {
+  0% {
+    transform: rotate(5deg);
+  }
+
+  25% {
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  75% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.notification-count {
+  position: absolute;
+  width: 1.75em;
+  height: 1.75em;
+  border-radius: 50%;
+  background-color: #e20606;
+  display: grid;
+  place-items: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #fff;
+  left: 60%;
+  top: 10%;
+  transform: translate(-60%, -10%);
+  opacity: 0;
+  animation: scaleUp 300ms ease-in-out 1s 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

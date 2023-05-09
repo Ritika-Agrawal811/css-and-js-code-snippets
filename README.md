@@ -165,7 +165,7 @@ A Star Rating Field to get user rating! Uses clip-path to draw the stars and JS 
 
 ### Feedback Field :zap:
 
-A Star Rating Field to get user rating! Uses clip-path to draw the stars and JS for the functionality.
+A Feedback Field to get user feeback! Uses CSS to draw the emojis and JS for the functionality.
 <br/>
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Form%20Fields/Feedback_Field).
 
