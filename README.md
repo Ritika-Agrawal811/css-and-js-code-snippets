@@ -23,7 +23,7 @@ Buttons help to lead the user to a specific action on a web page. I've got cool 
 - [Send Button](#send-button-zap)
 - [Share Button](#share-button-zap)
 - [Subscribe Button](#subscribe-button-zap)
-- [Ripple Button]
+- [Ripple Button](#ripple-button-zap)
 
 ### Delete Button :zap:
 
