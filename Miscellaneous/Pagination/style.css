@@ -1,0 +1,64 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination {
+  width: min(95%, 320px);
+  height: 50px;
+  display: grid;
+  grid-template: 100%/0.5fr 4fr 0.5fr;
+}
+
+i {
+  align-self: center;
+  justify-self: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.numbers-container {
+  overflow: hidden;
+}
+
+.numbers-bar {
+  position: relative;
+  width: 500px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: all 400ms linear;
+}
+
+.numbers-bar span {
+  width: 50px;
+  text-align: center;
+  font-size: 1.25rem;
+  position: relative;
+  font-family: sans-serif;
+  z-index: 2;
+  user-select: none;
+}
+
+.circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #d1ec40;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  z-index: 1;
+  transition: all 250ms linear;
+}

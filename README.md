@@ -206,6 +206,7 @@ Here is a collection of some random web components that may be used to practice 
 - [To-do List Check Item](#to-do-list-check-item-zap)
 - [Side Navigation Bar](#side-navigation-bar-zap)
 - [Video Clipped Inside Text](#video-clipped-inside-text-zap)
+- [Pagination](#pagination-zap)
 
 ### To-do List Check Item :zap:
 
@@ -233,3 +234,12 @@ Clipping videos inside text using CSS mix-blend properties and looping through t
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1P9KoyFtbAUF-mBW2_fiBd_3Q_wrm8-8O" width="85%" height="85%"/>
+
+### Pagination :zap:
+
+Pagination Animation made using CSS grid and transform properties. JS is used to handle click events!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Miscellaneous/Pagination).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1HgzoraOvIECgDrSLDZ_riv35LV7OSHEg" width="85%" height="85%"/>
