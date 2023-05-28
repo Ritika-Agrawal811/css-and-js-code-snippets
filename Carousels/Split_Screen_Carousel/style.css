@@ -1,0 +1,147 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.icons {
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 4;
+}
+
+.icons span {
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+  width: 1.75em;
+  height: 1.75em;
+  border-radius: 50%;
+  background-color: #121212;
+  color: #fff;
+  cursor: pointer;
+}
+
+.carousel-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.carousel-item .carousel-image {
+  position: absolute;
+  width: 65%;
+  height: 100%;
+  right: 0;
+}
+
+.carousel-image::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #feeace;
+  animation: slideDown 1s ease-in-out 1;
+  animation-fill-mode: forwards;
+}
+
+.carousel-item.next .carousel-image::before {
+  bottom: 0;
+}
+
+.carousel-item.prev .carousel-image::before {
+  top: 0;
+}
+
+.carousel-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-item .carousel-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+  height: 100%;
+  padding: 1em;
+  font-family: sans-serif;
+}
+
+.carousel-content::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #feeace;
+  animation: slideDown 1s ease-in-out 1;
+  animation-fill-mode: forwards;
+}
+
+.carousel-item.next .carousel-content::before {
+  top: 0;
+}
+
+.carousel-item.prev .carousel-content::before {
+  bottom: 0;
+}
+
+@keyframes slideDown {
+  100% {
+    height: 0;
+  }
+}
+
+.carousel-content h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+
+.carousel-content p {
+  font-size: 1.15rem;
+}
+
+@media (max-width: 675px) {
+  .carousel-item .carousel-image {
+    width: 100%;
+    height: 60%;
+  }
+
+  .carousel-item .carousel-content {
+    width: 100%;
+    height: 40%;
+    bottom: 0;
+  }
+
+  .carousel-content h2 {
+    font-size: 1.25rem;
+  }
+
+  .carousel-content p {
+    font-size: 0.95rem;
+  }
+
+  .icons span {
+    font-size: 1.25rem;
+  }
+}

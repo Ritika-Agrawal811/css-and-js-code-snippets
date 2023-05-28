@@ -9,6 +9,7 @@ This repository is divided into mentioned categories. You may navigate according
 - [Buttons](#buttons-sparkles)
 - [Loaders](#loaders-sparkles)
 - [Form Fields](#form-fields-sparkles)
+- [Carousels](#carousels-sparkles)
 - Hover Effects
 - [Miscellaneous](#miscellaneous-sparkles)
 
@@ -198,6 +199,23 @@ A Toggle Password Field to show/hide password! Uses fontawesome for icons and JS
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1iTg6-QIYgGosQCvHWBULRI1hPnljr7r4" width="85%" height="85%"/>
+
+## Carousels :sparkles:
+
+Carousels are a great way to provide visually appealing multiple pieces of content on a webpage all the while using space effectively. They make it easier to incorporate animation and various features without cluttering the layout.
+
+I've got a collection of animated carousels for you!
+
+- [Split Screen Carousel](#split-screen-carousel)
+
+### Split Screen Carousel
+
+A Split Screen Carousel with half-slide-up and half-slide-down animation made using CSS pseudo elements and JS to handle click events!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Carousels/Split_Screen_Carousel).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1tkGvsNbUZRZ4CJCCkx_phUfACa5-hogK" width="85%" height="85%"/>
 
 ## Miscellaneous :sparkles:
 
