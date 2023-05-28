@@ -215,7 +215,7 @@ A Split Screen Carousel with half-slide-up and half-slide-down animation made us
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Carousels/Split_Screen_Carousel).
 
 <br/>
-<img src="https://drive.google.com/uc?export=view&id=1LawA5nwr3sLa_47P1wI3wZdSdMdC6rsB" width="85%" height="85%"/>
+<img src="assets/gifs/Split_Screen_Carousel.gif" width="85%" height="85%"/>
 
 ## Miscellaneous :sparkles:
 
