@@ -98,6 +98,7 @@ Loaders, an important gap-filler for an api call, also garners the most creative
 - [Hourglass Loader](#hourglass-loader-zap)
 - [Text Loader](#text-loader-zap)
 - [Whirlpool Loader](#whirlpool-loader-zap)
+- [Rotating Dots Loader]
 
 ### Cube Loader :zap:
 
@@ -134,6 +135,15 @@ A Whirlpool Loader which uses CSS border properties and pseudo elements, each wi
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1HLqnqoPciU_qMZx_3nOhyRQalDRKUXMR" width="85%" height="85%"/>
+
+### Rotating Dots Loader :zap:
+
+A Rotating Dots Loader which uses CSS transform properties to place and rotate the dots!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Loaders/Dots_Loader).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1OMp6MG6EJxWi8cS3roPUgUpCV_zCwYqw" width="85%" height="85%"/>
 
 ## Form Fields :sparkles:
 

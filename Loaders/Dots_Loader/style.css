@@ -1,0 +1,61 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dots-loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 3em;
+  height: 3em;
+  animation: rotateAndShrink 1.25s ease-in-out infinite;
+}
+
+@keyframes rotateAndShrink {
+  45%,
+  55% {
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.dot {
+  position: absolute;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+}
+
+.dot:nth-child(1) {
+  left: -0.5em;
+  top: -0.5em;
+  background-color: #84de02;
+}
+
+.dot:nth-child(2) {
+  right: -0.5em;
+  top: -0.5em;
+  background-color: #da2647;
+}
+
+.dot:nth-child(3) {
+  left: -0.5em;
+  bottom: -0.5em;
+  background-color: #ffd12a;
+}
+
+.dot:nth-child(4) {
+  right: -0.5em;
+  bottom: -0.5em;
+  background-color: #6f2da8;
+}
