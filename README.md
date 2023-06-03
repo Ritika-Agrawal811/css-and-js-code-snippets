@@ -98,7 +98,7 @@ Loaders, an important gap-filler for an api call, also garners the most creative
 - [Hourglass Loader](#hourglass-loader-zap)
 - [Text Loader](#text-loader-zap)
 - [Whirlpool Loader](#whirlpool-loader-zap)
-- [Rotating Dots Loader]
+- [Rotating Dots Loader](#rotating-dots-loader-zap)
 
 ### Cube Loader :zap:
 
