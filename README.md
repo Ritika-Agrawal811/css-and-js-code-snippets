@@ -245,7 +245,7 @@ An Image Shrink Hover Effect made using CSS transform properties to scale down i
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Hover%20Effects/Image_Shrink).
 
 <br/>
-<img src="https://drive.google.com/uc?export=view&id=1byPNGyW3zTP85S2UJckrHeAx5KELGQA1" width="85%" height="85%"/>
+<img src="assets/gifs/Image_Shrink.gif" width="85%" height="85%"/>
 
 ## Miscellaneous :sparkles:
 
