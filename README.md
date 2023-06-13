@@ -227,6 +227,26 @@ A Split Screen Carousel with half-slide-up and half-slide-down animation made us
 <br/>
 <img src="assets/gifs/Split_Screen_Carousel.gif" width="85%" height="85%"/>
 
+## Hover Effects :sparkles:
+
+Hover Effects can be added to various components of a web page making it more engaging and visually appealing. They also help the users to easily navigate through the website therefore improving their experience.
+
+Here is a collection of subtle yet attractive hover effects examples for you!
+
+- Button Border Fill Up
+- Button Stripes
+- [Image Shrink](#image-shrink-hover-effect-zap)
+
+### Image Shrink Hover Effect :zap:
+
+An Image Shrink Hover Effect made using CSS transform properties to scale down its size and show image title when hovered!
+<br/>
+
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Hover%20Effects/Image_Shrink).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1wSLIaYGaKSaMVbuk8Wg9IC_kybYn_MWG" width="85%" height="85%"/>
+
 ## Miscellaneous :sparkles:
 
 Here is a collection of some random web components that may be used to practice CSS and JS concepts or even be included in projects to enhance its UI.
