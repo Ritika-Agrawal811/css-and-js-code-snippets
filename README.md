@@ -10,7 +10,7 @@ This repository is divided into mentioned categories. You may navigate according
 - [Loaders](#loaders-sparkles)
 - [Form Fields](#form-fields-sparkles)
 - [Carousels](#carousels-sparkles)
-- Hover Effects
+- [Hover Effects](#hover-effects-sparkles)
 - [Miscellaneous](#miscellaneous-sparkles)
 
 ## Buttons :sparkles:
