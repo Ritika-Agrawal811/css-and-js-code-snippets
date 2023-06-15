@@ -1,0 +1,85 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.countdown-container {
+  width: 13em;
+  height: 13em;
+  border-radius: 50%;
+  position: relative;
+  background-color: #fff;
+  background-image: linear-gradient(to right, transparent 50%, #9bbfe0 50%);
+}
+
+.count {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  z-index: 5;
+}
+
+.zoomOut {
+  animation: zoomOut 500ms linear 1;
+}
+
+@keyframes zoomOut {
+  0% {
+    font-size: 10rem;
+  }
+
+  100% {
+    font-size: 7rem;
+  }
+}
+
+.upper-piece {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0/50%;
+  background-color: #fff;
+  transform-origin: left;
+}
+
+.roll {
+  animation: rotateDown 500ms linear 1, rotateUp 500ms linear 500ms 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotateDown {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0.5turn);
+  }
+}
+
+@keyframes rotateUp {
+  0% {
+    transform: rotate(0);
+    background-color: #9bbfe0;
+  }
+  100% {
+    transform: rotate(0.5turn);
+    background-color: #9bbfe0;
+  }
+}

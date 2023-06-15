@@ -291,3 +291,12 @@ Pagination Animation made using CSS grid and transform properties. JS is used to
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1HgzoraOvIECgDrSLDZ_riv35LV7OSHEg" width="85%" height="85%"/>
+
+### Countdown Animation :zap:
+
+Countdown Animation made using CSS pseudo elements and animation properties! JS is used to set intervals for animation and increment the counter!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Miscellaneous/Countdown_Animation).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1LFMeomkA113qAi2XgI1hcC11xZoiryQf" width="85%" height="85%"/>
