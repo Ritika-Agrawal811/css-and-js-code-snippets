@@ -255,6 +255,7 @@ Here is a collection of some random web components that may be used to practice 
 - [Side Navigation Bar](#side-navigation-bar-zap)
 - [Video Clipped Inside Text](#video-clipped-inside-text-zap)
 - [Pagination](#pagination-zap)
+- [Countdown Animation](#countdown-animation-zap)
 
 ### To-do List Check Item :zap:
 
