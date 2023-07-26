@@ -234,7 +234,7 @@ Hover Effects can be added to various components of a web page making it more en
 Here is a collection of subtle yet attractive hover effects examples for you!
 
 - [Button Border Fill Up](#button-border-fill-up-hover-effect-zap)
-- Button Stripes
+- [Button Stripes](#button-stripes-hover-effect-zap)
 - [Image Shrink](#image-shrink-hover-effect-zap)
 
 ### Button Border Fill Up Hover Effect :zap:
@@ -246,6 +246,16 @@ A Button Border Fill Up Hover Effect made using svgs and CSS properties to anima
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1DtH_GZp4F0ymYnHAADetMh1vGSl-5uct" width="85%" height="85%"/>
+
+### Button Stripes Hover Effect :zap:
+
+A Button Stripes Hover Effect made using pseudo elements and CSS gradient properties!
+<br/>
+
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Hover%20Effects/Button_Stripes).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1zVMsqMbZ0Eh0oBA6OeOl1fFKFOkgt99e" width="85%" height="85%"/>
 
 ### Image Shrink Hover Effect :zap:
 
