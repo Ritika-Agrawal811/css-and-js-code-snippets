@@ -12,6 +12,7 @@ This repository is divided into mentioned categories. You may navigate according
 - [Carousels](#carousels-sparkles)
 - [Hover Effects](#hover-effects-sparkles)
 - [Icons](#icons-sparkles)
+- [Text Animations](#text-animations-sparkles)
 - [Miscellaneous](#miscellaneous-sparkles)
 
 ## Buttons :sparkles:
@@ -294,6 +295,23 @@ A Notification Bell Icon where its parts are made with CSS and svg. All parts ar
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1zZC2KX1xaafROmAbeDFn53Dyd8d4kq-j" width="85%" height="85%"/>
+
+## Text Animations :sparkles:
+
+Animations are the heart of a website! Apart from improving visual appeal, they also help improve the user experience and therefore bring more user engagement. The main heading is the first thing a user notices on a website, so it is all the more important to deliver the correct brand message via it.
+
+Here is a collection of attractive, responsive text animations that you can add to your website's main title!
+
+- [Rotating Text](#rotating-text-zap)
+
+### Rotating Text :zap:
+
+A Rotating Text Animation made using CSS position and animation properties! It also uses box-shadow properties to create an outline around text.
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Text%20Animations/Rotating_Text).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1KDWm9Xj-wpeCto1Olf9ExaFCN5A8QEvH" width="85%" height="85%"/>
 
 ## Miscellaneous :sparkles:
 

@@ -16,7 +16,7 @@ body {
 
 .wrapper {
   width: min(90%, 400px);
-  height: 4em;
+  height: calc(3.25em + 1.35vw);
   position: relative;
   overflow: hidden;
 }
@@ -50,7 +50,7 @@ body {
   }
 
   35% {
-    transform: translateY(-208%);
+    transform: translateY(-205%);
   }
 
   50% {
@@ -58,7 +58,7 @@ body {
   }
 
   60% {
-    transform: translateY(-308%);
+    transform: translateY(-305%);
   }
 
   75% {
@@ -66,16 +66,10 @@ body {
   }
 
   85% {
-    transform: translateY(-408%);
+    transform: translateY(-405%);
   }
 
   100% {
     transform: translateY(-400%);
-  }
-}
-
-@media (max-width: 424px) {
-  .wrapper {
-    height: 3.5em;
   }
 }
