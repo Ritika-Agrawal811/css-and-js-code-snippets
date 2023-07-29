@@ -306,7 +306,7 @@ Here is a collection of attractive, responsive text animations that you can add 
 
 ### Rotating Text :zap:
 
-A Rotating Text Animation made using CSS position and animation properties! It also uses box-shadow properties to create an outline around text.
+A Rotating Text Animation made using CSS position and animation properties! It also uses text-shadow properties to create an outline around text.
 <br/>
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Text%20Animations/Rotating_Text).
 
