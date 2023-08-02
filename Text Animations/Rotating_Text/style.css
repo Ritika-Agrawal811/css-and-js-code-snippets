@@ -42,7 +42,7 @@ body {
 
 @keyframes rotate {
   10% {
-    transform: translateY(-108%);
+    transform: translateY(-105%);
   }
 
   25% {
