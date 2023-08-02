@@ -303,6 +303,7 @@ Animations are the heart of a website! Apart from improving visual appeal, they 
 Here is a collection of attractive, responsive text animations that you can add to your website's main title!
 
 - [Rotating Text](#rotating-text-zap)
+- [Letter-by-Letter Text Reveal Animation](#letter-by-letter-text-reveal-animation-zap)
 
 ### Rotating Text :zap:
 
@@ -312,6 +313,15 @@ A Rotating Text Animation made using CSS position and animation properties! It a
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1KDWm9Xj-wpeCto1Olf9ExaFCN5A8QEvH" width="85%" height="85%"/>
+
+### Letter by Letter Text Reveal Animation :zap:
+
+A Text Reveal Animation made using CSS position properties to animate the pseudo elements of respective letters and reveal them in a step by step fashion!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Text%20Animations/Letter_By_Letter_Reveal).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1AUiGb-xWbLAoj0Czzu3esfQWdsaNZhU4" width="85%" height="85%"/>
 
 ## Miscellaneous :sparkles:
 

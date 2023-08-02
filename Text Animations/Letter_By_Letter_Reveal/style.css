@@ -1,0 +1,56 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #add8e6;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.letter {
+  position: relative;
+}
+
+.letter::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: #add8e6;
+  animation: animate 500ms linear 1;
+  animation-fill-mode: forwards;
+}
+
+.letter:nth-child(2)::before {
+  animation-delay: 250ms;
+}
+
+.letter:nth-child(3)::before {
+  animation-delay: 500ms;
+}
+
+.letter:nth-child(4)::before {
+  animation-delay: 1s;
+}
+
+.letter:nth-child(5)::before {
+  animation-delay: 1.5s;
+}
+
+@keyframes animate {
+  100% {
+    top: -100%;
+  }
+}
