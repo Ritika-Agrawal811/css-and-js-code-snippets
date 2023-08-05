@@ -332,6 +332,7 @@ Here is a collection of some random web components that may be used to practice 
 - [Video Clipped Inside Text](#video-clipped-inside-text-zap)
 - [Pagination](#pagination-zap)
 - [Countdown Animation](#countdown-animation-zap)
+- [Dropdown Menu]
 
 ### To-do List Check Item :zap:
 
@@ -377,3 +378,12 @@ Countdown Animation made using CSS pseudo elements and animation properties! JS 
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1LFMeomkA113qAi2XgI1hcC11xZoiryQf" width="85%" height="85%"/>
+
+### Dropdown Menu :zap:
+
+Dropdown Menu made using CSS position properties and animated using transition and transform properties!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Miscellaneous/Dropdown_Menu).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1okJirOn85o9bT12QVDY0krqYhy23c07J" width="85%" height="85%"/>
