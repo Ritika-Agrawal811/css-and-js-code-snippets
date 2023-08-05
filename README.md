@@ -332,7 +332,7 @@ Here is a collection of some random web components that may be used to practice 
 - [Video Clipped Inside Text](#video-clipped-inside-text-zap)
 - [Pagination](#pagination-zap)
 - [Countdown Animation](#countdown-animation-zap)
-- [Dropdown Menu]
+- [Dropdown Menu](#dropdown-menu-zap)
 
 ### To-do List Check Item :zap:
 
