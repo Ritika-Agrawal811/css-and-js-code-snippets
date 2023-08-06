@@ -1,0 +1,85 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #eee;
+}
+
+.star__button {
+  position: relative;
+  width: 8em;
+  height: 2.5em;
+  font-size: 1.5rem;
+  border: 0;
+  background-color: #fff;
+  border-radius: 0.5em;
+  box-shadow: 0 0 0.5em #ccc;
+  cursor: pointer;
+}
+
+.star__text,
+.star__icon,
+.fa-star,
+.star__count {
+  position: absolute;
+  display: grid;
+  place-content: center;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.star__text {
+  left: 0;
+  top: 0;
+  color: #545454;
+  font-weight: 700;
+  transition: width 250ms ease-in-out;
+}
+
+.star__icon {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(0);
+  border-radius: 50%;
+  transition: transform 450ms ease-in-out 100ms;
+}
+
+.star__icon .fa-star {
+  left: 0;
+  width: 35%;
+  color: #aaa;
+  transition: left 450ms ease-in-out, opacity 50ms linear 500ms;
+}
+
+.star__count {
+  top: 0;
+  right: 0;
+  width: 25%;
+  color: #aaa;
+  border-left: 3px solid #eee;
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+.star__button.selected .star__text {
+  width: 75%;
+}
+
+.star__button.selected .star__icon {
+  transform: translate(-50%, -50%) rotate(-190deg);
+}
+
+.star__button.selected .fa-star {
+  left: -0.5em;
+  opacity: 0;
+  color: #ffd700;
+}

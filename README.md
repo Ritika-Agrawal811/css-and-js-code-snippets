@@ -27,6 +27,7 @@ Buttons help to lead the user to a specific action on a web page. I've got cool 
 - [Share Button](#share-button-zap)
 - [Subscribe Button](#subscribe-button-zap)
 - [Ripple Button](#ripple-button-zap)
+- [Star Button](#star-button-zap)
 
 ### Delete Button :zap:
 
@@ -91,6 +92,14 @@ A Ripple Button Click Effect which uses JS to generate ripples and CSS for the a
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1Y3eIDXLi6wi3nGmO1OuyyFCjs3ViX5Bc" width="85%" height="85%"/>
+
+### Star Button :zap:
+
+A Star Button Animation which uses CSS position properties to layout the elements and a combination of transition and transform properties for animation. JS is used to handle click event to update count and toggle CSS classes!<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Star_Button).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1EOjkiTosDHAWsegeYgVmSRJ9EoMSMY5p" width="85%" height="85%"/>
 
 ## Loaders :sparkles:
 
