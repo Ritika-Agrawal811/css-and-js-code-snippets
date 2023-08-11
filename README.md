@@ -342,6 +342,7 @@ Here is a collection of some random web components that may be used to practice 
 - [Pagination](#pagination-zap)
 - [Countdown Animation](#countdown-animation-zap)
 - [Dropdown Menu](#dropdown-menu-zap)
+- [Nav Active Link Effect](#nav-active-link-effect-zap)
 
 ### To-do List Check Item :zap:
 
@@ -396,3 +397,12 @@ Dropdown Menu made using CSS position properties and animated using transition a
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1okJirOn85o9bT12QVDY0krqYhy23c07J" width="85%" height="85%"/>
+
+### Nav Active Link Effect :zap:
+
+An effect to highlight a navigation link on mouse click or keyboard arrow keys! Made using CSS background properties and animated using CSS Variables! JS is used to handle click and keyboard events.
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Miscellaneous/Nav_Active_Link).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1hzl8ofZD5B3ACYx1oqj7w6GwUjQXuG9h" width="85%" height="85%"/>
