@@ -313,6 +313,7 @@ Here is a collection of attractive, responsive text animations that you can add 
 
 - [Rotating Text](#rotating-text-zap)
 - [Letter-by-Letter Text Reveal Animation](#letter-by-letter-text-reveal-animation-zap)
+- [Text Split and Reveal Animation](#text-split-and-reveal-animation-zap)
 
 ### Rotating Text :zap:
 
@@ -331,6 +332,15 @@ A Text Reveal Animation made using CSS position properties to animate the pseudo
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1AUiGb-xWbLAoj0Czzu3esfQWdsaNZhU4" width="85%" height="85%"/>
+
+### Text Split and Reveal Animation :zap:
+
+A Text Split and Reveal Animation made using CSS position properties to animate the pseudo elements to move up and down revealing the hidden text inside!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Text%20Animations/Text_Split_And_Reveal).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1itSOwnHYcHZLvan7fG5737Ke4O84mqai" width="85%" height="85%"/>
 
 ## Miscellaneous :sparkles:
 
