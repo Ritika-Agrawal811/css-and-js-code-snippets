@@ -1,0 +1,118 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ddd6f3;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 1.5em;
+  box-shadow: 0 0 5px #e5e5e5;
+  background: #fff;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+figure {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform-origin: 50% 0%;
+  transition: all 600ms ease-in-out;
+  z-index: 2;
+}
+
+.card:hover figure {
+  top: -20%;
+  transform: scale(0.6);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1.5em;
+}
+
+.social-icons,
+.title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  color: #fff;
+  background: rgb(196, 30, 58);
+}
+
+.social-icons {
+  display: flex;
+  border-radius: 0 0 1.5em 1.5em;
+}
+
+.social-icons .icon-container {
+  display: inline-block;
+  width: calc(100% / 3);
+  height: 100%;
+  font-size: 1.25rem;
+  display: grid;
+  place-content: center;
+  transition: background-color 150ms ease-in-out;
+}
+
+.social-icons .icon-container:nth-child(1) {
+  border-radius: 0 0 0 1.25em;
+}
+
+.social-icons .icon-container:nth-child(3) {
+  border-radius: 0 0 1.25em 0;
+}
+
+.social-icons .icon-container:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  display: grid;
+  place-content: center;
+  font-size: 1.35rem;
+  font-weight: 400;
+  border-radius: 0 0 1em 1em;
+  z-index: 3;
+  transition: bottom 600ms ease-in-out;
+}
+
+.card:hover .title {
+  bottom: 40%;
+  font-weight: 700;
+  background: transparent;
+  color: #262626;
+}
+
+.content {
+  position: absolute;
+  bottom: 20%;
+  padding: 0 1em;
+  color: #545454;
+  opacity: 0;
+  text-align: center;
+  transition: opacity 150ms ease-in;
+  transition-delay: 600ms;
+}
+
+.card:hover .content {
+  opacity: 1;
+}
