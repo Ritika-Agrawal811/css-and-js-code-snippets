@@ -246,7 +246,7 @@ Here is a collection of subtle yet attractive hover effects examples for you!
 
 - [Button Border Fill Up](#button-border-fill-up-hover-effect-zap)
 - [Button Stripes](#button-stripes-hover-effect-zap)
-- [Image Shrink](#image-shrink-hover-effect-zap)
+- [Image Shrink](#image-shrink-hover-effect-zap) -[Team Card]
 
 ### Button Border Fill Up Hover Effect :zap:
 
@@ -277,6 +277,16 @@ An Image Shrink Hover Effect made using CSS transform properties to scale down i
 
 <br/>
 <img src="assets/gifs/Image_Shrink.gif" width="85%" height="85%"/>
+
+### Team Card Hover Effect :zap:
+
+A Team Card Hover Effect made using CSS transform properties to scale down the profile image's size and show further details when hovered!
+<br/>
+
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Hover%20Effects/Team_Card).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=10CV_08wVHkuISs-zzpSqNl5CQFuCkIdZ" width="85%" height="85%"/>
 
 ## Icons :sparkles:
 

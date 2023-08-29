@@ -16,8 +16,8 @@ body {
 
 .card {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 18em;
+  height: 18em;
   border-radius: 1.5em;
   box-shadow: 0 0 5px #e5e5e5;
   background: #fff;
@@ -115,4 +115,19 @@ img {
 
 .card:hover .content {
   opacity: 1;
+}
+
+@media screen and (max-width: 424px) {
+  .card {
+    width: 17em;
+    height: 17em;
+  }
+
+  .title {
+    font-size: 1.15rem;
+  }
+
+  .card:hover .title {
+    bottom: 45%;
+  }
 }
