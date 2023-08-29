@@ -246,7 +246,8 @@ Here is a collection of subtle yet attractive hover effects examples for you!
 
 - [Button Border Fill Up](#button-border-fill-up-hover-effect-zap)
 - [Button Stripes](#button-stripes-hover-effect-zap)
-- [Image Shrink](#image-shrink-hover-effect-zap) -[Team Card]
+- [Image Shrink](#image-shrink-hover-effect-zap)
+- [Team Card](#team-card-hover-effect-zap)
 
 ### Button Border Fill Up Hover Effect :zap:
 
