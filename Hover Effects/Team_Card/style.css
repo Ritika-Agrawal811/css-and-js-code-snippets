@@ -36,16 +36,16 @@ figure {
   z-index: 2;
 }
 
-.card:hover figure {
-  top: -20%;
-  transform: scale(0.6);
-}
-
 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 1.5em;
+}
+
+.card:hover figure {
+  top: -20%;
+  transform: scale(0.6);
 }
 
 .social-icons,

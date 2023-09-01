@@ -325,6 +325,7 @@ Here is a collection of attractive, responsive text animations that you can add 
 - [Rotating Text](#rotating-text-zap)
 - [Letter-by-Letter Text Reveal Animation](#letter-by-letter-text-reveal-animation-zap)
 - [Text Split and Reveal Animation](#text-split-and-reveal-animation-zap)
+- [Text Slide Up](#text-slide-up-animation-zap)
 
 ### Rotating Text :zap:
 
@@ -352,6 +353,15 @@ A Text Split and Reveal Animation made using CSS position properties to animate 
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1itSOwnHYcHZLvan7fG5737Ke4O84mqai" width="85%" height="85%"/>
+
+### Text Slide Up Animation :zap:
+
+A Text Slide Up Animation made using CSS text shadow properties to animate each word to slide up in a smooth manner!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Text%20Animations/Text_Slide_Up).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1z3zqWEGc12sL6qoORdD1j_cIasuR7gIx" width="85%" height="85%"/>
 
 ## Miscellaneous :sparkles:
 
