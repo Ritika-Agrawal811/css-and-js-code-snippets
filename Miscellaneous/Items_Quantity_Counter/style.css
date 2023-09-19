@@ -1,0 +1,104 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-container {
+  position: relative;
+  width: 4em;
+  height: 4em;
+  border: 3px solid #3498db;
+  background-color: #3498db;
+  border-radius: 50%;
+  transition: all 500ms ease-in-out;
+  cursor: pointer;
+}
+
+.itemCount,
+.icon {
+  position: absolute;
+  width: 2em;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+}
+
+.itemCount {
+  font-size: 1.65rem;
+  font-family: sans-serif;
+  visibility: hidden;
+  user-select: none;
+}
+
+.itemCount::before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffe5b4;
+  border-radius: 0.5em;
+  transition: height 300ms ease-in-out;
+  z-index: -1;
+}
+
+.icon {
+  border-radius: 50%;
+  font-size: 1.35rem;
+  transition: left 250ms ease-in-out;
+  color: #fff;
+}
+
+.expand {
+  width: 12em;
+  border-radius: 4em;
+  background-color: #fff;
+}
+
+.expand .plus-icon {
+  left: 85%;
+  color: #3498db;
+}
+
+.expand .minus-icon {
+  left: 15%;
+  color: #3498db;
+}
+
+.expand .itemCount {
+  visibility: visible;
+}
+
+.itemCount.showDown::before {
+  top: 0;
+  height: 100%;
+}
+
+.itemCount.hideDown::before {
+  height: 0;
+  bottom: 0;
+}
+
+.itemCount.showUp::before {
+  bottom: 0;
+  height: 100%;
+}
+
+.itemCount.hideUp::before {
+  height: 0;
+  top: 0;
+}

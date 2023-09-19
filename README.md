@@ -374,6 +374,7 @@ Here is a collection of some random web components that may be used to practice 
 - [Countdown Animation](#countdown-animation-zap)
 - [Dropdown Menu](#dropdown-menu-zap)
 - [Nav Active Link Effect](#nav-active-link-effect-zap)
+- [Items Quantity Counter](#items-quantity-counter-zap)
 
 ### To-do List Check Item :zap:
 
@@ -437,3 +438,12 @@ An effect to highlight a navigation link on mouse click or keyboard arrow keys! 
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1hzl8ofZD5B3ACYx1oqj7w6GwUjQXuG9h" width="85%" height="85%"/>
+
+### Items Quantity Counter :zap:
+
+Items Quantiy Counter made using CSS position properties! JS is used to handle click events to increment/decrement count and add required CSS classes for a smooth slide down/slide up animation when the count changes!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Miscellaneous/Items_Quantity_Counter).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1BMZiR80Zk1bYHysz9480pcVVuC6UdYNP" width="85%" height="85%"/>
