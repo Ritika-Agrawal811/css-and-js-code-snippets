@@ -28,7 +28,7 @@ Buttons help to lead the user to a specific action on a web page. I've got cool 
 - [Subscribe Button](#subscribe-button-zap)
 - [Ripple Button](#ripple-button-zap)
 - [Star Button](#star-button-zap)
-- [Scroll To Top Button]
+- [Scroll To Top Button](#scroll-to-top-button-zap)
 
 ### Delete Button :zap:
 
