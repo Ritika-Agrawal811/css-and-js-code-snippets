@@ -28,6 +28,7 @@ Buttons help to lead the user to a specific action on a web page. I've got cool 
 - [Subscribe Button](#subscribe-button-zap)
 - [Ripple Button](#ripple-button-zap)
 - [Star Button](#star-button-zap)
+- [Scroll To Top Button]
 
 ### Delete Button :zap:
 
@@ -100,6 +101,15 @@ A Star Button Animation which uses CSS position properties to layout the element
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1EOjkiTosDHAWsegeYgVmSRJ9EoMSMY5p" width="85%" height="85%"/>
+
+### Scroll To Top Button :zap:
+
+A Sroll To Top Button which uses CSS position fixed property to place it on bottom of page. JS is used to calculate scroll amount and set the conic background on button when page is scrolled!<br/>
+
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Sroll_To_Top).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1d-M7oTQpG58XqeA3TRN3JJ37yA7HpP_c" width="85%" height="85%"/>
 
 ## Loaders :sparkles:
 
