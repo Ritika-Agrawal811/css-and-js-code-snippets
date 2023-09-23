@@ -385,6 +385,7 @@ Here is a collection of some random web components that may be used to practice 
 - [Dropdown Menu](#dropdown-menu-zap)
 - [Nav Active Link Effect](#nav-active-link-effect-zap)
 - [Items Quantity Counter](#items-quantity-counter-zap)
+- [Menu Switcher](#menu-switcher-zap)
 
 ### To-do List Check Item :zap:
 
@@ -457,3 +458,12 @@ Items Quantiy Counter made using CSS position properties! JS is used to handle c
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1BMZiR80Zk1bYHysz9480pcVVuC6UdYNP" width="85%" height="85%"/>
+
+### Menu Switcher :zap:
+
+Menu Switcher made using CSS position and transform properties! JS is used to handle click events to rotate the switch on each click!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Miscellaneous/Menu_Switcher).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1Ko84NexLE53MRTKyPXa-ZtSdQyNl6wZJ" width="85%" height="85%"/>
