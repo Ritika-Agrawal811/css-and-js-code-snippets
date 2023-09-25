@@ -2,64 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Share Button</title>
   </head>
   <body>
-    <button>
-      <div class="letters">
-        <div class="card">
-          <p class="card_face front">S</p>
-          <span class="card_face back"
-            ><i class="fab fa-github-square"></i
-          ></span>
-        </div>
-      </div>
-
-      <div class="letters">
-        <div class="card">
-          <p class="card_face front">H</p>
-          <span class="card_face back">
-            <i class="fab fa-twitter-square"></i>
-          </span>
-        </div>
-      </div>
-
-      <div class="letters">
-        <div class="card">
-          <p class="card_face front">A</p>
-          <span class="card_face back">
-            <i class="fab fa-facebook-square"></i>
-          </span>
-        </div>
-      </div>
-
-      <div class="letters">
-        <div class="card">
-          <p class="card_face front">R</p>
-          <span class="card_face back">
-            <i class="fab fa-instagram-square"></i>
-          </span>
-        </div>
-      </div>
-
-      <div class="letters">
-        <div class="card">
-          <p class="card_face front">E</p>
-          <span class="card_face back">
-            <i class="fab fa-linkedin"></i>
-          </span>
-        </div>
-      </div>
+    <button class="share-btn" id="shareBtn">
+      <i class="fa-solid fa-arrow-up-right-from-square share-icon"></i>
+      <span class="social-icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </span>
     </button>
+    <script src="script.js"></script>
   </body>
 </html>

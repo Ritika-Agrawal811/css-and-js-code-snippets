@@ -7,79 +7,83 @@
 }
 
 body {
+  display: flex;
   height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #afe1af;
 }
 
-button {
-  width: 270px;
-  height: 60px;
-  border: none;
-  background: #ffe4c4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.share-btn {
   position: relative;
-}
-
-button::before,
-button::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 3px;
-  background-color: #000;
-  transition: width 1s ease-in-out;
-}
-
-button::before {
-  top: 0;
-  left: 0;
-}
-
-button::after {
-  bottom: 0;
-  right: 0;
-}
-
-button:hover:before,
-button:hover:after {
-  width: 100%;
-}
-
-.letters {
-  width: 50px;
-  height: 50px;
-  perspective: 600px;
-}
-
-.card {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transition: transform 1s ease-in-out;
-  transform-style: preserve-3d;
-}
-
-.card_face {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  backface-visibility: hidden;
-  font-size: 28px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  width: 2em;
+  height: 2em;
+  border-radius: 100vmax;
+  border: 0;
+  font-size: 2rem;
+  background-color: #fff;
+  color: #008000;
+  transition: width 300ms ease-in-out;
+  transition-delay: 50ms;
   cursor: pointer;
-  font-weight: 600;
+  z-index: 1;
 }
 
-.back {
-  transform: rotateY(180deg);
+.share-btn::before {
+  content: "x";
+  position: absolute;
+  left: 5px;
+  font-size: 2.25rem;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: transparent;
+  color: #fff;
+  border-radius: inherit;
+  transition: background-color 300ms ease-in-out;
+  z-index: -1;
 }
 
-button:hover .card {
-  transform: rotateY(180deg);
+.social-icons {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: calc(100% - 2em);
+  height: 100%;
+  right: 0;
+  border-radius: inherit;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+  transform: scale(0);
+  transition: transform 300ms ease-in-out;
+}
+
+.share-icon {
+  transform: scale(1);
+  transition: transform 300ms ease-in-out;
+}
+
+.share-btn.open {
+  width: 8em;
+}
+
+.share-btn.open::before {
+  background-color: #008000;
+}
+
+.share-btn.open :is(.fa-facebook-f, .fa-twitter, .fa-instagram) {
+  transform: scale(1);
+  color: #008000;
+}
+
+.share-btn.open .share-icon {
+  transform: scale(0);
 }

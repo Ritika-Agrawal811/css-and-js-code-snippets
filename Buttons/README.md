@@ -7,11 +7,11 @@ Buttons help to lead the user to a specific action on a web page. I've got cool 
 - [Floating Action Button](#floating-action-button-zap)
 - [Search Button](#search-button-zap)
 - [Send Button](#send-button-zap)
-- [Share Button](#share-button-zap)
 - [Subscribe Button](#subscribe-button-zap)
 - [Ripple Button](#ripple-button-zap)
 - [Star Button](#star-button-zap)
 - [Scroll To Top Button](#scroll-to-top-button-zap)
+- [Share Button](#share-button-zap)
 
 ### Delete Button :zap:
 
@@ -53,14 +53,6 @@ A Send Button with paper plane flying animation to show "sent" state! Uses JS to
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1ktFozrqzTiqh9oe_GslRbttMepL6oreq" width="85%" height="85%"/>
 
-### Share Button :zap:
-
-A Share Button showing all social icons when hovered over! Fontawesome is used for the icons.<br/>
-:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Share_Button).
-
-<br/>
-<img src="https://drive.google.com/uc?export=view&id=13d8pQuqtF6vXDzW3Kw9fADrgrYzpp5KZ" width="85%" height="85%"/>
-
 ### Subscribe Button :zap:
 
 A Subscribe Button animation to take in a user's email and get them subscribed to your work! Uses JS for click events.<br/>
@@ -93,3 +85,12 @@ A Sroll To Top Button which uses CSS position fixed property to place it on bott
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1d-M7oTQpG58XqeA3TRN3JJ37yA7HpP_c" width="85%" height="85%"/>
+
+### Share Button :zap:
+
+A Share Button which uses CSS transform and transition properties to style open/close animation states which are toggled on button click handled via JS!<br/>
+
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Share_Button).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1a1iQ-f5PoacWatxDX9sUN1IQrxxEJ4H0" width="85%" height="85%"/>

@@ -8,6 +8,7 @@ Here is a collection of subtle yet attractive hover effects examples for you!
 - [Button Stripes](#button-stripes-hover-effect-zap)
 - [Image Shrink](#image-shrink-hover-effect-zap)
 - [Team Card](#team-card-hover-effect-zap)
+- [Share Button Hover Effect](#share-button-hover-effect-zap)
 
 ### Button Border Fill Up Hover Effect :zap:
 
@@ -48,3 +49,11 @@ A Team Card Hover Effect made using CSS transform properties to scale down the p
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=10CV_08wVHkuISs-zzpSqNl5CQFuCkIdZ" width="85%" height="85%"/>
+
+### Share Button Hover Effect :zap:
+
+A Share Button showing all social icons when hovered over! Fontawesome is used for the icons.<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Hover%20Effects/Share_Button).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=18wi60DLCAkEMtpuqP_-T--Vo57CO-CPN" width="85%" height="85%"/>
