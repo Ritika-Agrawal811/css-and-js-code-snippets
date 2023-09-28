@@ -1,6 +1,6 @@
-let dropdown = document.querySelector(".multiselect-dropdown");
-let menu = document.querySelector(".menu");
-let listContainer = document.querySelector(".selectedList-container");
+const dropdown = document.querySelector(".multiselect-dropdown");
+const menu = document.querySelector(".menu");
+const listContainer = document.querySelector(".selectedList-container");
 let selectedItems = [];
 
 dropdown.onclick = (event) => {
@@ -9,8 +9,7 @@ dropdown.onclick = (event) => {
 
 menu.addEventListener("click", (event) => {
   event.stopPropagation();
-
-  let item = event.target.innerHTML;
+  const item = event.target.innerHTML;
 
   if (!selectedItems.includes(item)) {
     selectedItems.push(item);
@@ -19,8 +18,8 @@ menu.addEventListener("click", (event) => {
 });
 
 function showSelectedItems(item) {
-  let itemSpan = document.createElement("span");
-  let crossIcon = document.createElement("i");
+  const itemSpan = document.createElement("span");
+  const crossIcon = document.createElement("i");
 
   itemSpan.innerHTML = item;
   itemSpan.classList.add("selectedItem");
@@ -34,10 +33,8 @@ function showSelectedItems(item) {
 
 function deleteItem(event) {
   event.stopPropagation();
-  let item = event.currentTarget;
-
+  const item = event.currentTarget;
   selectedItems = selectedItems.filter((value) => value !== item.textContent);
-
   item.classList.add("zoomOut");
 
   setTimeout(() => {

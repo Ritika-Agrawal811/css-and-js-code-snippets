@@ -35,12 +35,12 @@ body {
 
 .menu {
   list-style-type: none;
+  position: absolute;
   width: 100%;
   top: 120%;
-  position: absolute;
+  height: 0;
   border-radius: inherit;
   box-shadow: 0 2px 5px #aaa;
-  height: 0;
   transition: height 300ms ease-in-out;
   cursor: pointer;
   overflow-y: scroll;
@@ -49,9 +49,8 @@ body {
 
 .menu li {
   padding: 1em;
-  transition: background-color 300ms ease-in;
   opacity: 0;
-  transition: opacity 400ms ease-in-out;
+  transition: background-color 300ms ease-in, opacity 400ms ease-in-out;
 }
 
 .menu li:hover {
@@ -79,15 +78,15 @@ body {
   padding: 0.5em;
 }
 
-::-webkit-scrollbar {
+.multiselect-dropdown ::-webkit-scrollbar {
   width: 5px;
 }
 
-::-webkit-scrollbar-track {
+.multiselect-dropdown ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
-::-webkit-scrollbar-thumb {
+.multiselect-dropdown ::-webkit-scrollbar-thumb {
   background: #800080;
 }
 
