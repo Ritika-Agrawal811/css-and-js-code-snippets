@@ -1,6 +1,6 @@
-let searchBtn = document.querySelector(".search-btn");
-let closeBtn = document.querySelector(".close-btn");
-let searchInputContainer = document.getElementById("search-input-container");
+const searchBtn = document.querySelector(".search-btn");
+const closeBtn = document.querySelector(".close-btn");
+const searchInputContainer = document.getElementById("search-input-container");
 
 searchBtn.addEventListener("click", () => {
   searchInputContainer.classList.add("show");

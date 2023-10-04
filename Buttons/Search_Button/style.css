@@ -60,7 +60,7 @@ nav {
   height: 130%;
 }
 
-input[type="text"] {
+input[type="search"] {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -75,7 +75,7 @@ input[type="text"] {
   color: #fff;
 }
 
-input[type="text"]::placeholder {
+input[type="search"]::placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -89,7 +89,7 @@ input[type="text"]::placeholder {
     right: 0.5em;
   }
 
-  input[type="text"] {
+  input[type="search"] {
     font-size: 1rem;
     width: 65%;
   }
