@@ -4,6 +4,7 @@ const searchInputContainer = document.getElementById("search-input-container");
 
 searchBtn.addEventListener("click", () => {
   searchInputContainer.classList.add("show");
+  searchInputContainer.querySelector("input").focus();
 });
 
 closeBtn.addEventListener("click", () => {
