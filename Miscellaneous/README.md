@@ -92,3 +92,12 @@ Menu Switcher made using CSS position and transform properties! JS is used to ha
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1Ko84NexLE53MRTKyPXa-ZtSdQyNl6wZJ" width="85%" height="85%"/>
+
+### Rotating Border Animation :zap:
+
+Rotating Border Animation made using CSS position and border gradient properties! Keyframes are used to add the animations which increases width for top and bottom borders and height for left and right borders!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Miscellaneous/Rotating_Border).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1C2bFqA7acOVuGwVnZ6FE72QVVG-ZJqmU" width="85%" height="85%"/>
