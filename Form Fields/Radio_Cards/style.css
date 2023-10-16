@@ -1,0 +1,64 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272737;
+  height: 100vh;
+}
+
+form {
+  padding: 0 1em;
+  width: 350px;
+}
+
+.inputGroup {
+  position: relative;
+  margin: 1em 0;
+}
+
+input[type="radio"] {
+  appearance: none;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: radial-gradient(45% 45% at 50% 50%, #4c4c5e 48%, #24293c 50%);
+  border-radius: 50%;
+  left: 2em;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 100ms ease-in;
+  cursor: pointer;
+  z-index: 2;
+}
+
+label {
+  display: block;
+  position: relative;
+  padding: 1em 3em;
+  width: 100%;
+  font-size: 1.35rem;
+  font-family: sans-serif;
+  color: #878790;
+  background-color: #323246;
+  border: 3px solid #4c4c5e;
+  border-radius: 0.5em;
+  transition: all 100ms ease-in;
+  cursor: pointer;
+}
+
+input:checked ~ label {
+  color: #fff;
+  border: 3px solid #3f5cd3;
+}
+
+input:checked {
+  background: radial-gradient(45% 45% at 50% 50%, #fff 48%, #3f5cd3 50%);
+}
