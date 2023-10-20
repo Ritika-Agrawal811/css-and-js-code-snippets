@@ -11,6 +11,7 @@ Here is a collection of some random web components that may be used to practice 
 - [Nav Active Link Effect](#nav-active-link-effect-zap)
 - [Items Quantity Counter](#items-quantity-counter-zap)
 - [Menu Switcher](#menu-switcher-zap)
+- [Statistics Card]
 
 ### To-do List Check Item :zap:
 
@@ -101,3 +102,12 @@ Rotating Border Animation made using CSS position and border gradient properties
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1C2bFqA7acOVuGwVnZ6FE72QVVG-ZJqmU" width="85%" height="85%"/>
+
+### Statistics Card :zap:
+
+Statistics Counter Animation made using HTML data attributes to specifiy the final value and JS to run a function after every 1 millisecond to update the count!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Miscellaneous/Statistics_Card).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1zRW5uckBvg7qhGHOLs99u54xHNyUO03b" width="85%" height="85%"/>

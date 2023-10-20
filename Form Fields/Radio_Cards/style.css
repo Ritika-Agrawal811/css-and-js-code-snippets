@@ -27,8 +27,8 @@ form {
 input[type="radio"] {
   appearance: none;
   position: absolute;
-  width: 25px;
-  height: 25px;
+  width: 1.75em;
+  height: 1.75em;
   background: radial-gradient(45% 45% at 50% 50%, #4c4c5e 48%, #24293c 50%);
   border-radius: 50%;
   left: 2em;
@@ -41,7 +41,6 @@ input[type="radio"] {
 
 label {
   display: block;
-  position: relative;
   padding: 1em 3em;
   width: 100%;
   font-size: 1.35rem;

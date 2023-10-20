@@ -1,0 +1,42 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e0e0e0;
+}
+
+.stats-card {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 1.5em 2em;
+  gap: 2em;
+  border-radius: 0.5em;
+  color: #323232;
+  background: #e0e0e0;
+  box-shadow: 1em 1em 2em #d0d0d0, -1em -1em 2em #f0f0f0;
+}
+
+.cup-icon {
+  font-size: 3.5rem;
+  color: #fe6f5e;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0.15em 0;
+}
+
+h4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
