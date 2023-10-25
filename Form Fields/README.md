@@ -6,6 +6,7 @@ A list of various form fields including password validation, feedback fields, la
 - [Password Validation](#password-validation-zap)
 - [Star Rating Field](#star-rating-field-zap)
 - [Feedback Field](#feedback-field-zap)
+- [Feedback Field with Emojis](#feedback-field-with-emojis-zap)
 - [Label Animation](#label-animation-zap)
 - [Toggle Password Field](#toggle-password-field-zap)
 - [Radio Cards](#radio-cards-zap)
