@@ -46,6 +46,15 @@ A Feedback Field to get user feeback! Uses CSS to draw the emojis and JS for the
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1SDFroODDpN2RTGxOO8fb9RxtLVb52KYt" width="85%" height="85%"/>
 
+### Feedback Field with Emojis :zap:
+
+A Feedback Field to get user feeback! Emoji images are used which are grayed out with CSS filter grayscale() property! JS for the functionality.
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Form%20Fields/Feedback_Field_Emojis).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1TNS5mn9DTqAgrIIXt3DvIp4_SUh6JKhZ" width="85%" height="85%"/>
+
 ### Label Animation :zap:
 
 An Input Label Animation for textboxes in forms which uses CSS pseudo classes and position properties!
