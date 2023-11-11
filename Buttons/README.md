@@ -12,6 +12,7 @@ Buttons help to lead the user to a specific action on a web page. I've got cool 
 - [Star Button](#star-button-zap)
 - [Scroll To Top Button](#scroll-to-top-button-zap)
 - [Share Button](#share-button-zap)
+- [Confetti Button]
 
 ### Delete Button :zap:
 
@@ -94,3 +95,12 @@ A Share Button which uses CSS transform and transition properties to style open/
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1a1iQ-f5PoacWatxDX9sUN1IQrxxEJ4H0" width="85%" height="85%"/>
+
+### Confetti Button :zap:
+
+A Confetti Button made using canvas-confetti npm package with JS!<br/>
+
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Confetti_Button).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1ETWYZzRO58lG8Ul5dA_4B--mwAJDHAGi" width="85%" height="85%"/>

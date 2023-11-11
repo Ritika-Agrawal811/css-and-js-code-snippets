@@ -1,0 +1,41 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.confetti-button {
+  font-size: 1.15rem;
+  font-weight: 700;
+  padding: 0.75em 1.5em;
+  border: 0;
+  border-radius: 100vmax;
+  background: linear-gradient(90deg, #a8ff78 50%, #78ffd6);
+  cursor: pointer;
+  transition: transform 150ms ease-in;
+}
+
+.confetti-button:hover {
+  transform: scale(1.1);
+}
+
+.wrapper canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
