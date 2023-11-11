@@ -12,7 +12,7 @@ Buttons help to lead the user to a specific action on a web page. I've got cool 
 - [Star Button](#star-button-zap)
 - [Scroll To Top Button](#scroll-to-top-button-zap)
 - [Share Button](#share-button-zap)
-- [Confetti Button]
+- [Confetti Button](#confetti-button-⚡)
 
 ### Delete Button :zap:
 
