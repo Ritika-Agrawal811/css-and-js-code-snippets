@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: bisque;
+}
+
+h1 {
+  position: relative;
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  height: 3px;
+  background-color: #000;
+  transition: all 350ms ease-in-out;
+}
+
+h1:hover::before {
+  width: 100%;
+  left: 0;
+}

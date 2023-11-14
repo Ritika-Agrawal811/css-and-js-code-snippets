@@ -9,6 +9,7 @@ Here is a collection of subtle yet attractive hover effects examples for you!
 - [Image Shrink](#image-shrink-hover-effect-zap)
 - [Team Card](#team-card-hover-effect-zap)
 - [Share Button Hover Effect](#share-button-hover-effect-zap)
+- [Text Underline Hover Effect](#text-underline-hover-effect-zap)
 
 ### Button Border Fill Up Hover Effect :zap:
 
@@ -57,3 +58,11 @@ A Share Button showing all social icons when hovered over! Fontawesome is used f
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=18wi60DLCAkEMtpuqP_-T--Vo57CO-CPN" width="85%" height="85%"/>
+
+### Text Underline Hover Effect :zap:
+
+A Text Underline Hover Effect made with pseudo element where its left position and width are changed on hover! <br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Hover%20Effects/Text_Underline).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1T9SYlnH8IQsm77O3Ztac8QxAo_pGm9yc" width="85%" height="85%"/>
