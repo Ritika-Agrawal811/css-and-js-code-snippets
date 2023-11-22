@@ -10,6 +10,7 @@ Here is a collection of subtle yet attractive hover effects examples for you!
 - [Team Card](#team-card-hover-effect-zap)
 - [Share Button Hover Effect](#share-button-hover-effect-zap)
 - [Text Underline Hover Effect](#text-underline-hover-effect-zap)
+- [Focus Image on Hover Effect](#focus-image-on-hover-effect-zap)
 
 ### Button Border Fill Up Hover Effect :zap:
 
@@ -66,3 +67,11 @@ A Text Underline Hover Effect made with pseudo element where its left position a
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1T9SYlnH8IQsm77O3Ztac8QxAo_pGm9yc" width="85%" height="85%"/>
+
+### Focus Image on Hover Effect :zap:
+
+An Image Hover Effect where an image being hovered is highlighted and rest are blurred! Made using CSS :not selector and opacity property <br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Hover%20Effects/Focus_Image_Effect).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1vfJlpugx5muL8RMwTmDRbPh2Ec2MG21h" width="85%" height="85%"/>
