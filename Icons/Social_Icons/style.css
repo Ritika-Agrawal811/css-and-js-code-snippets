@@ -1,0 +1,57 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 1em;
+}
+
+.icon {
+  width: 2.5em;
+  height: 2.5em;
+  font-size: 3em;
+  display: flex;
+  text-decoration: none;
+  color: #000;
+  outline: 2px solid #000;
+  outline-offset: -8px;
+  border-radius: 50%;
+  transition: all 200ms ease-in;
+}
+
+.icon i {
+  margin: auto;
+}
+
+.icon:hover {
+  outline-width: 6px;
+  outline-color: #fff;
+  color: #fff;
+}
+
+.icon:hover:has(.fa-x-twitter) {
+  background-color: #000;
+}
+
+.icon:hover:has(.fa-instagram) {
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}

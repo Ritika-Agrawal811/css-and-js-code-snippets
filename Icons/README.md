@@ -4,6 +4,7 @@ Though it is always best to use easily available icons library to add suitable i
 
 - [Inbox Icon](#inbox-icon-zap)
 - [Notification Bell Icon](#notification-bell-icon-zap)
+- [Social Icons](#social-icons-zap)
 
 ### Inbox Icon :zap:
 
@@ -24,3 +25,13 @@ A Notification Bell Icon where its parts are made with CSS and svg. All parts ar
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1zZC2KX1xaafROmAbeDFn53Dyd8d4kq-j" width="85%" height="85%"/>
+
+### Social Icons :zap:
+
+A Social Icons hover effect made with CSS outline and background properties!
+<br/>
+
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Icons/Social_Icons).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1F46VfGlWkXE6jzO_VsX30Kw6pfhgJb9-" width="85%" height="85%"/>
