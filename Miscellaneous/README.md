@@ -11,7 +11,8 @@ Here is a collection of some random web components that may be used to practice 
 - [Nav Active Link Effect](#nav-active-link-effect-zap)
 - [Items Quantity Counter](#items-quantity-counter-zap)
 - [Menu Switcher](#menu-switcher-zap)
-- [Statistics Card]
+- [Statistics Card](#statistics-card-zap)
+- [Cards Swipe Effect](#cards-swipe-effect-zap)
 
 ### To-do List Check Item :zap:
 
@@ -111,3 +112,12 @@ Statistics Counter Animation made using HTML data attributes to specifiy the fin
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1zRW5uckBvg7qhGHOLs99u54xHNyUO03b" width="85%" height="85%"/>
+
+### Cards Swipe Effect :zap:
+
+Cards Swipe Effect made using swiper package!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Miscellaneous/Cards_Swipe).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1VJKA0z3YVTHFjasSGLievlGyM_BPXMot" width="85%" height="85%"/>
