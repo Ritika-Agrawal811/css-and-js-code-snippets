@@ -1,0 +1,49 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+}
+
+.ripple-loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+}
+
+.ripple-1,
+.ripple-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  outline: 1px solid #1e90ff;
+  animation: ripple 2s ease-in-out infinite;
+}
+
+.ripple-2 {
+  animation-delay: 0.75s;
+}
+
+@keyframes ripple {
+  0% {
+    outline-width: 1px;
+    outline-offset: -2.5em;
+    opacity: 0.8;
+  }
+
+  100% {
+    outline-width: 8px;
+    outline-offset: 0;
+    opacity: 0;
+  }
+}

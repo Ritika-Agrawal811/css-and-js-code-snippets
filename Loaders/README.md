@@ -7,6 +7,7 @@ Loaders, an important gap-filler for an api call, also garners the most creative
 - [Text Loader](#text-loader-zap)
 - [Whirlpool Loader](#whirlpool-loader-zap)
 - [Rotating Dots Loader](#rotating-dots-loader-zap)
+- [Ripple Loader](#ripple-loader-zap)
 
 ### Cube Loader :zap:
 
@@ -52,3 +53,12 @@ A Rotating Dots Loader which uses CSS transform properties to place and rotate t
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1OMp6MG6EJxWi8cS3roPUgUpCV_zCwYqw" width="85%" height="85%"/>
+
+### Ripple Loader :zap:
+
+A Ripple Loader made by animating the CSS outline-offset property!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Loaders/Ripple_Loader).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1xGTuNS7AMxsCPoGjNSO9Bw1rs8qil1Au" width="85%" height="85%"/>

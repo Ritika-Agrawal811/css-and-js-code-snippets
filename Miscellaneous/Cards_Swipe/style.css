@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.swiper {
+  width: 15em;
+  height: 20em;
+}
+
+.swiper-slide {
+  border-radius: 1em;
+}
+
+.swiper-slide img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1em;
+}
