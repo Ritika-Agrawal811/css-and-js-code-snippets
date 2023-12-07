@@ -10,6 +10,7 @@ A list of various form fields including password validation, feedback fields, la
 - [Label Animation](#label-animation-zap)
 - [Toggle Password Field](#toggle-password-field-zap)
 - [Radio Cards](#radio-cards-zap)
+- [Invalid Input Shake Animation](#invalid-input-shake-animation-zap)
 
 ### Multiselect Dropdown :zap:
 
@@ -82,3 +83,14 @@ Radio Cards made using CSS :checked pseudo class of an input radio tag!
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1A_41UVImfQRacnDDhm8UwSLxG90S2hD8" width="85%" height="85%"/>
+
+### Invalid Input Shake Animation :zap:
+
+Invalid Input Shake Animation made using CSS pseudo class :invalid and :valid to detect whether the filled value is allowed or not! HTML pattern attribute of input element helps to make this check.
+
+Note: For complex and more secure validation, please use JavaScript.
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Form%20Fields/Invalid_Input_Shake_Effect).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1DPBZjSfOEKwM0x010aElo7So8_n9BZyP" width="85%" height="85%"/>
