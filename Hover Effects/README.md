@@ -12,6 +12,7 @@ Here is a collection of subtle yet attractive hover effects examples for you!
 - [Text Underline Hover Effect](#text-underline-hover-effect-zap)
 - [Focus Image on Hover Effect](#focus-image-on-hover-effect-zap)
 - [Button Background Rotate Hover Effect](#button-background-rotate-hover-effect-zap)
+- [Button Wave Animation](#button-wave-animation-zap)
 
 ### Button Border Fill Up Hover Effect :zap:
 
@@ -84,3 +85,11 @@ A Button Hover Effect made using CSS transform and z-index properties on pseudo 
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1o3YLp-6lnSYJAZCBWOu4_c65xn_cnp_z" width="85%" height="85%"/>
+
+### Button Wave Animation :zap:
+
+A Button Wave Animation made using CSS transform and z-index properties on pseudo elements! <br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Hover%20Effects/Button_Wave_Animation).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1vUiTOz7zWeCCcgmCUh2ZDs87BA_d5NZN" width="85%" height="85%"/>
