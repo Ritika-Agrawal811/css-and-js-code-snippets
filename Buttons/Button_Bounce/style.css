@@ -1,0 +1,36 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fefefe;
+}
+
+.btn-bounce {
+  background: #24305e;
+  border-radius: 0.75em;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-label {
+  display: inline-block;
+  padding: 0.5em 1.25em;
+  border-radius: 0.5em;
+  background: #a8d0e6;
+  font-size: 1.25rem;
+  transform: translateY(-0.25em);
+  transition: transform ease 0.1s;
+}
+
+.btn-bounce:active .btn-label {
+  transform: translateY(0);
+}

@@ -13,6 +13,7 @@ Buttons help to lead the user to a specific action on a web page. I've got cool 
 - [Scroll To Top Button](#scroll-to-top-button-zap)
 - [Share Button](#share-button-zap)
 - [Confetti Button](#confetti-button-zap)
+- [Button Bounce on Click Effect](#button-bounce-on-click-effect-zap)
 
 ### Delete Button :zap:
 
@@ -104,3 +105,12 @@ A Confetti Button made using canvas-confetti npm package with JS!<br/>
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1ETWYZzRO58lG8Ul5dA_4B--mwAJDHAGi" width="85%" height="85%"/>
+
+### Button Bounce on Click Effect :zap:
+
+A Button Bounce on Click Effect made using CSS transform properties and :active pseudo class!<br/>
+
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Button_Bounce).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1Hl874FiHlVVYUCVFgq7bReZUtzRL47Za" width="85%" height="85%"/>
