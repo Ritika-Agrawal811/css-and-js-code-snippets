@@ -1,25 +1,35 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
 }
 
 svg {
   width: 100%;
-  border: 2px solid red;
 }
 
 .text {
-  font-size: 4rem;
+  font-size: 2.85rem;
   font-weight: 600;
+  letter-spacing: 5px;
 }
 
 #outline {
   fill: none;
-  stroke: #000;
+  stroke: #ffffc0;
+  stroke-width: 1.5px;
   stroke-dasharray: 100%;
-  stroke-dashoffset: 0;
-  animation-name: outline;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-in;
+  animation: outline 3.5s ease-in;
   animation-fill-mode: forwards;
 }
 
@@ -30,5 +40,17 @@ svg {
 
   to {
     stroke-dashoffset: 0;
+  }
+}
+
+@media (min-width: 48rem) {
+  .text {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .text {
+    font-size: 5rem;
   }
 }
