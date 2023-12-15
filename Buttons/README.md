@@ -14,6 +14,7 @@ Buttons help to lead the user to a specific action on a web page. I've got cool 
 - [Share Button](#share-button-zap)
 - [Confetti Button](#confetti-button-zap)
 - [Button Bounce on Click Effect](#button-bounce-on-click-effect-zap)
+- [Accessible Floating Action Button](#accessible-floating-action-button-zap)
 
 ### Delete Button :zap:
 
@@ -114,3 +115,12 @@ A Button Bounce on Click Effect made using CSS transform properties and :active 
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1Hl874FiHlVVYUCVFgq7bReZUtzRL47Za" width="85%" height="85%"/>
+
+### Accessible Floating Action Button :zap:
+
+An Floating Action Button made with accessibilty in mind. Appropriate aria tags are used to make it easy for screenreader users!<br/>
+
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Buttons/Floating_Action_Button_Vertical).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=17zpwVwG13oL34D4ks0PqDMUwc4xRnR7p" width="85%" height="85%"/>
