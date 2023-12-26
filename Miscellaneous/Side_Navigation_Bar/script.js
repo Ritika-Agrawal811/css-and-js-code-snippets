@@ -1,14 +1,15 @@
-let bar = document.querySelector(".bar");
+const bar = document.querySelector(".bar");
 
 document.onscroll = () => {
-  let y = Math.floor(
-    (window.pageYOffset / document.documentElement.scrollHeight) * 100
+  const y = Math.floor(
+    (window.scrollY / document.documentElement.scrollHeight) * 100
   );
 
+  // const y = window.scrollY;
   bar.style.height = y * 1.08 + "%"; // 1.08 is the margin error in calculation
 
-  let remainder = Math.floor(y / 16) + 1;
-  let activeLink = document.getElementById("link-" + remainder);
+  const remainder = Math.floor(y / 16) + 1;
+  const activeLink = document.getElementById("link-" + remainder);
 
   activateLink(activeLink);
 };
@@ -16,7 +17,7 @@ document.onscroll = () => {
 let previous = document.getElementById("link-1");
 
 function activateLink(link) {
-  let current = link;
+  const current = link;
   previous.classList.remove("active");
   current.classList.add("active");
   previous = current;
