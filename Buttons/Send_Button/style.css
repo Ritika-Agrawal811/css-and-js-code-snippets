@@ -22,13 +22,17 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   position: relative;
-  box-shadow: 0 0 0 #50c878 inset, 0 2px 5px #0095ffa6;
+  box-shadow:
+    0 0 0 #50c878 inset,
+    0 2px 5px #0095ffa6;
   transition: all 350ms ease-in-out;
   cursor: pointer;
 }
 
 .send-btn.checked {
-  box-shadow: 200px 0 0 #50c878 inset, 0 2px 5px #50c878a6;
+  box-shadow:
+    200px 0 0 #50c878 inset,
+    0 2px 5px #50c878a6;
 }
 
 .circle {

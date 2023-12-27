@@ -38,7 +38,9 @@ body {
   background-color: rgb(217, 20, 20);
   color: #fff;
   cursor: pointer;
-  transition: width 350ms ease-in, left 350ms ease-in;
+  transition:
+    width 350ms ease-in,
+    left 350ms ease-in;
   z-index: 3;
 }
 

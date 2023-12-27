@@ -29,7 +29,7 @@ function displayCarouselItem() {
     carouselItems[previousIndex].classList.replace(prevAnimationClass, "hide");
     carouselItems[currentIndex].classList.replace(
       "hide",
-      currentAnimationClass
+      currentAnimationClass,
     );
 
     previousIndex = currentIndex;

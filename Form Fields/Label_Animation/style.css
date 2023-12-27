@@ -41,7 +41,9 @@ label {
   left: 1em;
   top: 0.75em;
   cursor: text;
-  transition: top 350ms ease-in, font-size 350ms ease-in;
+  transition:
+    top 350ms ease-in,
+    font-size 350ms ease-in;
 }
 
 .form__input:hover {

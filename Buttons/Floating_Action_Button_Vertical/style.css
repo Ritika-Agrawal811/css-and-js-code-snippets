@@ -31,7 +31,9 @@
   height: calc(var(--size) * 2);
   background-color: var(--bg-color);
   color: var(--icon-color);
-  box-shadow: 0 0 0.5em #ddd, 0 3px 0.2em #bbb;
+  box-shadow:
+    0 0 0.5em #ddd,
+    0 3px 0.2em #bbb;
   transition: all 150ms ease-in-out;
   cursor: pointer;
 }

@@ -58,7 +58,9 @@ body {
   left: 0;
   width: 35%;
   color: #aaa;
-  transition: left 450ms ease-in-out, opacity 50ms linear 500ms;
+  transition:
+    left 450ms ease-in-out,
+    opacity 50ms linear 500ms;
 }
 
 .star__count {

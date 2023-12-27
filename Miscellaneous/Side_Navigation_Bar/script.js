@@ -2,7 +2,7 @@ const bar = document.querySelector(".bar");
 
 document.onscroll = () => {
   const y = Math.floor(
-    (window.scrollY / document.documentElement.scrollHeight) * 100
+    (window.scrollY / document.documentElement.scrollHeight) * 100,
   );
 
   // const y = window.scrollY;

@@ -23,7 +23,9 @@ body {
   border-radius: 0.5em;
   color: #323232;
   background: #e0e0e0;
-  box-shadow: 1em 1em 2em #d0d0d0, -1em -1em 2em #f0f0f0;
+  box-shadow:
+    1em 1em 2em #d0d0d0,
+    -1em -1em 2em #f0f0f0;
 }
 
 .cup-icon {
