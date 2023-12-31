@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
+*,
+::before,
+::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #34B597;
+}
+
+.card{
+    width: min(95%, 300px);
+    border-radius: 0.5em;
+    cursor:pointer;
+}
+
+figure{
+    height: 18em;
+    overflow: hidden;
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5em 0.5em 0 0;
+    transition: transform 300ms ease-in-out;
+}
+
+.card__content{
+    position:relative;
+    background-color: #B1D795;
+    border-radius: 0 0 0.5em 0.5em;
+    text-align: center;
+    height:11em;
+    padding: 1.5em 0;
+    z-index:0;
+    transition: padding 300ms ease-in, color 300ms ease-in;
+}
+
+.card__content::before{
+    content:"";
+    position: absolute;
+    left:50%;
+    bottom:0;
+    width:100%;
+    height:0;
+    border-radius: 50% 50% 0.5em 0.5em;
+    background-color: #fff;
+    transform: translateX(-50%);
+    transform-origin: 50% 100%;
+    transition: height 300ms ease-in-out, border-radius 300ms ease-in-out;
+    z-index: -1;
+}
+
+.card__content h2{
+    font-size: 2rem;
+    font-family: 'Diphylleia', serif;
+    line-height: 1.25;
+}
+
+.card__content p{
+    font-family: sans-serif;
+    margin-top: 1em;
+}
+
+.card:hover img{
+    transform: scale(1.1);
+}
+
+.card:hover .card__content{
+    color:#0000ff;
+    padding-top: 1em;
+}
+
+.card:hover .card__content::before{
+    height:100%;
+    border-radius: 0 0 0.5em 0.5em;
+}
+
