@@ -102,4 +102,3 @@ A Card Hover Effect when the image zooms in and a white background fills behind 
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1FR_kkdpPdxUBD7U_DDcJl5yGmMCQ-NaI" width="85%" height="85%"/>
-
