@@ -1,39 +1,37 @@
 *,
 ::before,
-::after{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
- 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-p{
-    width: 15em;
-    font-family: sans-serif;
-    line-height: 1.5;
-    font-size: 2rem;
-    cursor: pointer;
+p {
+  width: 15em;
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
-a{
-    color:  #3b5998;
-    text-decoration: none;
-    background-image: linear-gradient(90deg, #fe4a49 50%, #fe4a49 50%);
-    background-size: 0% 0.1em;
-    background-repeat: no-repeat;
-    background-position: 0% 100%;
-    transition: background-size 450ms ease-in-out;
-    padding-bottom:0.1em;
+a {
+  color: #3b5998;
+  text-decoration: none;
+  background-image: linear-gradient(90deg, #fe4a49 50%, #fe4a49 50%);
+  background-size: 0% 0.1em;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  transition: background-size 450ms ease-in-out;
+  padding-bottom: 0.1em;
 }
 
-a:hover{
-    background-size: 100% 0.1em;
-   
+a:hover {
+  background-size: 100% 0.1em;
 }
