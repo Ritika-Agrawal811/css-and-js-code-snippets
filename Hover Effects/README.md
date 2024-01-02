@@ -14,6 +14,7 @@ Here is a collection of subtle yet attractive hover effects examples for you!
 - [Button Background Rotate Hover Effect](#button-background-rotate-hover-effect-zap)
 - [Button Wave Animation](#button-wave-animation-zap)
 - [Card Hover Effect](#card-hover-effect-zap)
+- [Multi-line Underline Hover Effect](#multi-line-underline-hover-effect-zap)
 
 ### Button Border Fill Up Hover Effect :zap:
 
@@ -102,3 +103,13 @@ A Card Hover Effect when the image zooms in and a white background fills behind 
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1FR_kkdpPdxUBD7U_DDcJl5yGmMCQ-NaI" width="85%" height="85%"/>
+
+### Multi-line Underline Hover Effect :zap:
+
+A Multi-line Underline Hover Effect made using CSS background and transition properties! <br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Hover%20Effects/Multi_Line_Underline).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1_n4eTAbY2_QZ53kY32-7h_V8cbbVxrf4" width="85%" height="85%"/>
+
+
