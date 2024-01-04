@@ -111,5 +111,3 @@ A Multi-line Underline Hover Effect made using CSS background and transition pro
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1_n4eTAbY2_QZ53kY32-7h_V8cbbVxrf4" width="85%" height="85%"/>
-
-
