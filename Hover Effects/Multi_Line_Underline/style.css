@@ -18,7 +18,7 @@ p {
   font-family: sans-serif;
   line-height: 1.5;
   font-size: 2rem;
-  cursor: pointer;
+ 
 }
 
 a {
@@ -30,6 +30,7 @@ a {
   background-position: 0% 100%;
   transition: background-size 450ms ease-in-out;
   padding-bottom: 0.1em;
+  cursor: pointer;
 }
 
 a:hover {
