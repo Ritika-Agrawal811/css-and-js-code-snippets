@@ -40,7 +40,8 @@ body {
 
 .btn:hover {
   background: transparent;
-  box-shadow: 1px 1px 0.5em 0 rgba(255, 255, 255, 0.5),
+  box-shadow:
+    1px 1px 0.5em 0 rgba(255, 255, 255, 0.5),
     -1px -1px 0.5em 0 rgba(116, 125, 136, 0.2);
 }
 

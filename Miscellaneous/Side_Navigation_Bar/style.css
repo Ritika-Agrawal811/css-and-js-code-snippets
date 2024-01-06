@@ -1,6 +1,6 @@
 *,
-:before,
-:after {
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,12 +10,12 @@ html {
   scroll-behavior: smooth;
 }
 
-section {
+.page-section {
   font-family: sans-serif;
-  height: 100vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  height: 100vh;
 }
 
 h2 {
@@ -43,7 +43,7 @@ aside {
   transition: height 150ms eease-in;
 }
 
-.bar:after {
+.bar::after {
   content: "";
   position: absolute;
   width: 0.65em;
@@ -65,7 +65,9 @@ aside {
   color: #696969;
   font-weight: 700;
   text-decoration: none;
-  transition: color 300ms ease-in, margin-left 300ms ease-in;
+  transition:
+    color 300ms ease-in,
+    margin-left 300ms ease-in;
 }
 
 .menu li a.active {

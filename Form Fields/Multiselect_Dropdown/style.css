@@ -50,7 +50,9 @@ body {
 .menu li {
   padding: 1em;
   opacity: 0;
-  transition: background-color 300ms ease-in, opacity 400ms ease-in-out;
+  transition:
+    background-color 300ms ease-in,
+    opacity 400ms ease-in-out;
 }
 
 .menu li:hover {

@@ -34,7 +34,10 @@ body {
   display: block;
   color: #121212;
   letter-spacing: 5px;
-  text-shadow: -1px 1px 0 #cfc547, 1px 1px 0 #ff99cc, 1px -1px 0 #00ffff,
+  text-shadow:
+    -1px 1px 0 #cfc547,
+    1px 1px 0 #ff99cc,
+    1px -1px 0 #00ffff,
     -1px -1px 0 #00ff00;
   user-select: none;
   animation: rotate 7s infinite ease-in-out;

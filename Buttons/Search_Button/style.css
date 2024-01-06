@@ -22,7 +22,9 @@ nav {
   border: none;
   font-size: 2rem;
   cursor: pointer;
-  transition: background-color 300ms ease-in, color 300ms ease-in;
+  transition:
+    background-color 300ms ease-in,
+    color 300ms ease-in;
 }
 
 .search-btn {
@@ -52,7 +54,9 @@ nav {
   width: 100%;
   height: 100%;
   background-color: rgb(27, 31, 105);
-  transition: top 200ms ease-in, height 300ms ease-out 200ms;
+  transition:
+    top 200ms ease-in,
+    height 300ms ease-out 200ms;
 }
 
 .container.show {

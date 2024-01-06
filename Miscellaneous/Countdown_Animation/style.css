@@ -60,7 +60,9 @@ body {
 }
 
 .roll {
-  animation: rotateDown 500ms linear 1, rotateUp 500ms linear 500ms 1;
+  animation:
+    rotateDown 500ms linear 1,
+    rotateUp 500ms linear 500ms 1;
   animation-fill-mode: forwards;
 }
 

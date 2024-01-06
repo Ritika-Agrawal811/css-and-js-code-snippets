@@ -1,0 +1,63 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  --viewport-margin: 3.5vmin;
+
+  position: fixed;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 1em;
+
+  inset-block: auto var(--viewport-margin);
+  inset-inline: auto var(--viewport-margin);
+}
+
+.fab {
+  --size: 2.25rem;
+  --bg-color: #3f00ff;
+  --icon-color: #fff;
+
+  border: none;
+  border-radius: 50%;
+  font-size: var(--size);
+  width: calc(var(--size) * 2);
+  height: calc(var(--size) * 2);
+  background-color: var(--bg-color);
+  color: var(--icon-color);
+  box-shadow:
+    0 0 0.5em #ddd,
+    0 3px 0.2em #bbb;
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+}
+
+.small {
+  --size: 1.5rem;
+  --bg-color: #fff;
+  --icon-color: #3f00ff;
+  transform: translateY(0);
+}
+
+.hide {
+  opacity: 0;
+  transform: translateY(10%);
+}
+
+.fab:active {
+  transform: translateY(2%);
+}
+
+.plus-btn.selected:active {
+  transform: translateY(2%) rotate(45deg);
+}
+
+.selected {
+  transform: rotate(45deg);
+}
