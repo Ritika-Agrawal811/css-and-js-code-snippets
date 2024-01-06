@@ -54,8 +54,8 @@ h1::before {
   }
 }
 
-@media (max-width:35em ){
-  h1{
+@media (max-width: 35em) {
+  h1 {
     font-size: 5rem;
   }
 }

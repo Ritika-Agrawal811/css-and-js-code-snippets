@@ -64,5 +64,3 @@ A Text Shadow Animation made using CSS background properties and pseudo elements
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=15rPxtmRtw4rFsi5kZEtysjsjlJ6yOmrF" width="85%" height="85%"/>
-
-
