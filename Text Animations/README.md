@@ -8,7 +8,8 @@ Here is a collection of attractive, responsive text animations that you can add 
 - [Letter-by-Letter Text Reveal Animation](#letter-by-letter-text-reveal-animation-zap)
 - [Text Split and Reveal Animation](#text-split-and-reveal-animation-zap)
 - [Text Slide Up](#text-slide-up-animation-zap)
-- [Text Outline Animation]
+- [Text Outline Animation](#text-outline-animation-zap)
+- [Text Shadow Animation](#text-shadow-animation-zap)
 
 ### Rotating Text :zap:
 
@@ -54,3 +55,14 @@ A Text Outline Animation made using svg and animating it with CSS!
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1YzL-NxEIpDqzinal1NcLY3up1YgCYZnm" width="85%" height="85%"/>
+
+### Text Shadow Animation :zap:
+
+A Text Shadow Animation made using CSS background properties and pseudo elements!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Text%20Animations/Text_Shadow_Animation).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=15rPxtmRtw4rFsi5kZEtysjsjlJ6yOmrF" width="85%" height="85%"/>
+
+

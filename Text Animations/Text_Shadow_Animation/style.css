@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #121212;
   height: 100vh;
 }
 
@@ -20,7 +20,7 @@ h1 {
   font-size: 10rem;
   font-family: cursive;
   letter-spacing: 0.05em;
-  text-shadow: 0 0 0.15em black;
+  text-shadow: 0 0 0.15em #121212;
 }
 
 h1::before {
@@ -51,5 +51,11 @@ h1::before {
 
   100% {
     background-position: 100% -100%;
+  }
+}
+
+@media (max-width:35em ){
+  h1{
+    font-size: 5rem;
   }
 }
