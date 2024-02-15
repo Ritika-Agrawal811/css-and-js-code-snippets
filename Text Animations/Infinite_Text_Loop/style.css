@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infinite-text-loop {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: calc(2.5rem + 3vw);
+  text-transform: uppercase;
+  font-weight: 700;
+  animation: loop 7s infinite linear;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
