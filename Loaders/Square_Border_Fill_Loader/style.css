@@ -1,0 +1,45 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+}
+
+.square-border-fill-loader {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 5em;
+    height: 5em;
+    background: linear-gradient(135deg, #545454 25%, #00ffbc 25% 50%, #545454 50% 75%, #8ea5ff 75%);
+    background-size: 400% 400%;
+    animation: animate 4.5s ease-in infinite;
+}
+
+.square-border-fill-loader::before {
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #121212;
+}
+
+@keyframes animate {
+    0%, 100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+}
