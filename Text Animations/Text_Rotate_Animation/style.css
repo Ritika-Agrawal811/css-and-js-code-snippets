@@ -1,61 +1,60 @@
 *,
-::before, 
+::before,
 ::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;  
-    background-color: #BED1CF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #bed1cf;
 }
 
 .text-rotate-container {
-    position: relative;
-    width: 200px;
-    height: 50px;
-    perspective: 100px;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  perspective: 100px;
 }
 
 h1 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    font-size: 3rem;
-    font-family: sans-serif;
-    text-align: center;
-    background-color: inherit;
-    backface-visibility: hidden;    
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 3rem;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: inherit;
+  backface-visibility: hidden;
 }
 
 h1.flip {
-    animation: flip 850ms ease-in 1;
+  animation: flip 850ms ease-in 1;
 }
 
-
 @keyframes flip {
-    0% {
-        opacity: 0;
-        transform: rotateX(120deg);
-    }
+  0% {
+    opacity: 0;
+    transform: rotateX(120deg);
+  }
 
-    40% {
-        opacity: 1;
-    }
+  40% {
+    opacity: 1;
+  }
 
-    60% {
-        transform: rotateX(0);  
-    }
+  60% {
+    transform: rotateX(0);
+  }
 
-    80% {
-        transform: rotateX(15deg); 
-    }
+  80% {
+    transform: rotateX(15deg);
+  }
 
-    100% {    
-        transform: rotateX(0);   
-    }
+  100% {
+    transform: rotateX(0);
+  }
 }
