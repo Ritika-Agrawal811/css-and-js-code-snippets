@@ -8,6 +8,7 @@ Loaders, an important gap-filler for an api call, also garners the most creative
 - [Whirlpool Loader](#whirlpool-loader-zap)
 - [Rotating Dots Loader](#rotating-dots-loader-zap)
 - [Ripple Loader](#ripple-loader-zap)
+- [Square Border Fill Loader](#square-border-fill-loader-zap)
 
 ### Cube Loader :zap:
 
@@ -62,3 +63,13 @@ A Ripple Loader made by animating the CSS outline-offset property!
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1xGTuNS7AMxsCPoGjNSO9Bw1rs8qil1Au" width="85%" height="85%"/>
+
+### Square Border Fill Loader :zap:
+
+A Square Border Fill Loader made by animating the background gradient using background position property!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Loaders/Square_Border_Fill_Loader).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1lQPoFTvDGuXduprtVuJtW3IbKYScLDT6" width="85%" height="85%"/>
+

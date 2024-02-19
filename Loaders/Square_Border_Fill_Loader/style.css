@@ -25,7 +25,7 @@ body {
     #8ea5ff 75%
   );
   background-size: 400% 400%;
-  animation: animate 4.5s ease-in infinite;
+  animation: animate 5s ease-in infinite;
 }
 
 .square-border-fill-loader::before {
