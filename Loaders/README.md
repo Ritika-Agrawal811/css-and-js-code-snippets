@@ -71,5 +71,6 @@ A Square Border Fill Loader made by animating the background gradient using back
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Loaders/Square_Border_Fill_Loader).
 
 <br/>
-<img src="https://drive.google.com/uc?export=view&id=1lQPoFTvDGuXduprtVuJtW3IbKYScLDT6" width="85%" height="85%"/>
+<img src="https://drive.google.com/uc?export=view&id=1OHBhtqGMP1tFvAcLAi3J4zhtx-5lLbMz" width="85%" height="85%"/>
+
 
