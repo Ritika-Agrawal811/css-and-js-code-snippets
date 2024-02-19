@@ -72,4 +72,3 @@ A Square Border Fill Loader made by animating the background gradient using back
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1lQPoFTvDGuXduprtVuJtW3IbKYScLDT6" width="85%" height="85%"/>
-
