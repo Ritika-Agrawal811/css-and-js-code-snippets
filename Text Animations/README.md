@@ -64,3 +64,13 @@ A Text Shadow Animation made using CSS background properties and pseudo elements
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=15rPxtmRtw4rFsi5kZEtysjsjlJ6yOmrF" width="85%" height="85%"/>
+
+### Infinite Text Loop :zap:
+
+A Infinite Text Loop Animation made using transform translate property!
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Text%20Animations/Infinite_Text_Loop).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1jZE1e4alRcjOQmEskmAypacneTSzIied" width="85%" height="85%"/>
+
