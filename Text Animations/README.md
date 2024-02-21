@@ -74,4 +74,3 @@ A Infinite Text Loop Animation made using transform translate property!
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1jZE1e4alRcjOQmEskmAypacneTSzIied" width="85%" height="85%"/>
-
