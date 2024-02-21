@@ -10,6 +10,7 @@ Here is a collection of attractive, responsive text animations that you can add 
 - [Text Slide Up](#text-slide-up-animation-zap)
 - [Text Outline Animation](#text-outline-animation-zap)
 - [Text Shadow Animation](#text-shadow-animation-zap)
+- [Infinite Text Loop](#infinite-text-loop-zap)
 
 ### Rotating Text :zap:
 
