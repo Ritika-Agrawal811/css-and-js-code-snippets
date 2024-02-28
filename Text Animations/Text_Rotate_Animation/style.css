@@ -15,15 +15,10 @@ body {
 }
 
 .text-rotate-container {
-  position: relative;
-  width: 12em;
-  height: 3.5em;
-  perspective: 100px;
+  perspective: 8em;
 }
 
 h1 {
-  position: absolute;
-  inset: 0;
   font-size: 3rem;
   font-family: sans-serif;
   text-align: center;
