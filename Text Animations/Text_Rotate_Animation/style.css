@@ -16,19 +16,17 @@ body {
 
 .text-rotate-container {
   position: relative;
-  width: 200px;
-  height: 50px;
+  width: 12em;
+  height: 3.5em;
   perspective: 100px;
 }
 
 h1 {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   font-size: 3rem;
   font-family: sans-serif;
   text-align: center;
-  background-color: inherit;
   backface-visibility: hidden;
 }
 
