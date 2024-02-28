@@ -84,4 +84,3 @@ A Text Rotate Animation made using CSS transform properties! JS is used to chang
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=12GA6hTyOeR59Tq9kdMjVS-J37eWvtj23" width="85%" height="85%"/>
-
