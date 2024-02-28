@@ -11,6 +11,7 @@ Here is a collection of attractive, responsive text animations that you can add 
 - [Text Outline Animation](#text-outline-animation-zap)
 - [Text Shadow Animation](#text-shadow-animation-zap)
 - [Infinite Text Loop](#infinite-text-loop-zap)
+- [Text Rotate Animation](#text-rotate-animation-zap)
 
 ### Rotating Text :zap:
 
@@ -74,3 +75,13 @@ A Infinite Text Loop Animation made using transform translate property!
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1jZE1e4alRcjOQmEskmAypacneTSzIied" width="85%" height="85%"/>
+
+### Text Rotate Animation :zap:
+
+A Text Rotate Animation made using CSS transform properties! JS is used to change the heading after an interval and properly play the rotate animation.
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Text%20Animations/Text_Rotate_Animation).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=12GA6hTyOeR59Tq9kdMjVS-J37eWvtj23" width="85%" height="85%"/>
+
