@@ -13,6 +13,7 @@ Here is a collection of some random web components that may be used to practice 
 - [Menu Switcher](#menu-switcher-zap)
 - [Statistics Card](#statistics-card-zap)
 - [Cards Swipe Effect](#cards-swipe-effect-zap)
+- [Navigation Menu Animation](#navigation-menu-animation-zap)
 
 ### To-do List Check Item :zap:
 
@@ -121,3 +122,12 @@ Cards Swipe Effect made using swiper package!
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1VJKA0z3YVTHFjasSGLievlGyM_BPXMot" width="85%" height="85%"/>
+
+### Navigation Menu Animation :zap:
+
+Navigation Menu Animation made using CSS position and transition properties! JS is used to handle the click events to show the menu.
+<br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Miscellaneous/Navigation_Menu_Animation).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1WuzskDB3cygMa9Ar24EHTo9XgpC1ARZn" width="85%" height="85%"/>
