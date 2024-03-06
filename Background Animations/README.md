@@ -1,6 +1,6 @@
 ## Background Animations :sparkles:
 
-Background animations like particle effects, gradient animations, video backgrounds, parallax scrollings etc significantly enhance a website's visual appeal. It makes the website more engaging and memorable for users. 
+Background animations like particle effects, gradient animations, video backgrounds, parallax scrollings etc significantly enhance a website's visual appeal. It makes the website more engaging and memorable for users.
 
 I've got a list of various such animations. Pick the right one for your website!
 

@@ -1,45 +1,44 @@
-*, 
+*,
 ::before,
 ::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
 header {
-    height: 100vh;
-    display: flex;
-    align-items: flex-end;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
 }
 
 svg {
-    height: 20vmin;
-    width: 100%;
+  height: 20vmin;
+  width: 100%;
 }
 
 .wave-backward {
-    animation: move-backward  var(--duration) linear infinite;
+  animation: move-backward var(--duration) linear infinite;
 }
-   
+
 .wave-forward {
-    animation: move-forward  var(--duration) linear infinite;
-}  
-  
+  animation: move-forward var(--duration) linear infinite;
+}
+
 @keyframes move-forward {
-    0% {
+  0% {
     transform: translate(85px);
-    }
-    100% {
-        transform: translate(-90px);
-    }
+  }
+  100% {
+    transform: translate(-90px);
+  }
 }
 
 @keyframes move-backward {
-    0% {
-        transform: translate(-90px);
-    }
-    100% {
-        transform: translate(85px);
-    }
+  0% {
+    transform: translate(-90px);
+  }
+  100% {
+    transform: translate(85px);
+  }
 }

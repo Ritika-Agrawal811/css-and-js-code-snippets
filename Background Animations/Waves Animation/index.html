@@ -1,35 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Waves Animation</title>
-</head>
-<body>
-    <header>  
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+  </head>
+  <body>
+    <header>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28 "
+        preserveAspectRatio="none"
+      >
         <defs>
-        <path id="gentle-wave" d="M-160 44c30 0 
+          <path
+            id="gentle-wave"
+            d="M-160 44c30 0 
         58-18 88-18s
         58 18 88 18 
         58-18 88-18 
         58 18 88 18
-        v44h-352z"></path>
+        v44h-352z"
+          ></path>
         </defs>
         <g>
-          <use xlink:href="#gentle-wave" x="50" y="3" fill="rgba(89, 51, 204, 0.1)" class="wave-forward" style="--duration: 8s"></use>
+          <use
+            xlink:href="#gentle-wave"
+            x="50"
+            y="3"
+            fill="rgba(89, 51, 204, 0.1)"
+            class="wave-forward"
+            style="--duration: 8s"
+          ></use>
         </g>
         <g>
-          <use xlink:href="#gentle-wave" x="50" y="0" fill="rgba(89, 51, 204, 0.4)" class="wave-backward" style="--duration: 7s"></use>
+          <use
+            xlink:href="#gentle-wave"
+            x="50"
+            y="0"
+            fill="rgba(89, 51, 204, 0.4)"
+            class="wave-backward"
+            style="--duration: 7s"
+          ></use>
         </g>
         <g>
-          <use xlink:href="#gentle-wave" x="50" y="9" fill="rgba(89, 51, 204, 0.7)" class="wave-forward" style="--duration: 6s"></use>
+          <use
+            xlink:href="#gentle-wave"
+            x="50"
+            y="9"
+            fill="rgba(89, 51, 204, 0.7)"
+            class="wave-forward"
+            style="--duration: 6s"
+          ></use>
         </g>
         <g>
-          <use xlink:href="#gentle-wave" x="50" y="6" fill="rgba(89, 51, 204, 1)" class="wave-backward" style="--duration: 5s"></use>
+          <use
+            xlink:href="#gentle-wave"
+            x="50"
+            y="6"
+            fill="rgba(89, 51, 204, 1)"
+            class="wave-backward"
+            style="--duration: 5s"
+          ></use>
         </g>
       </svg>
     </header>
-</body>
+  </body>
 </html>
