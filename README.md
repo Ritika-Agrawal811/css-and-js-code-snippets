@@ -14,3 +14,4 @@ This repository is divided into mentioned categories. You may navigate according
 - [Icons](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/blob/main/Icons/README.md)
 - [Text Animations](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/blob/main/Text%20Animations/README.md)
 - [Miscellaneous](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/blob/main/Miscellaneous/README.md)
+- [Background Animations](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/blob/main/Background%20Animations/README.md)
