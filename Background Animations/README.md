@@ -14,4 +14,3 @@ A Waves Animation where the waves are an svg. CSS transform property is used to 
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1QFCCR4DGJPmcxuawbq5BXN_yYUdYNReJ" width="85%" height="85%"/>
-
