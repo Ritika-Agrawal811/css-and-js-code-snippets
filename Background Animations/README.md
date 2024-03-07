@@ -13,4 +13,5 @@ A Waves Animation where the waves are an svg. CSS transform property is used to 
 :paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Background%20Animations/Waves_Animation).
 
 <br/>
-<img src="https://drive.google.com/uc?export=view&id=1a3Jdyz2A9Dn6fvpmeb-IOYBloqGqy3Cp" width="85%" height="85%"/>
+<img src="https://drive.google.com/uc?export=view&id=1QFCCR4DGJPmcxuawbq5BXN_yYUdYNReJ" width="85%" height="85%"/>
+
