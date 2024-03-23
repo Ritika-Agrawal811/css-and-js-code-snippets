@@ -15,6 +15,7 @@ Here is a collection of subtle yet attractive hover effects examples for you!
 - [Button Wave Animation](#button-wave-animation-zap)
 - [Card Hover Effect](#card-hover-effect-zap)
 - [Multi-line Underline Hover Effect](#multi-line-underline-hover-effect-zap)
+- [Link Slide Up Hover Effect](#link-slide-up-hover-effect-zap)
 
 ### Button Border Fill Up Hover Effect :zap:
 
@@ -111,3 +112,12 @@ A Multi-line Underline Hover Effect made using CSS background and transition pro
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1_n4eTAbY2_QZ53kY32-7h_V8cbbVxrf4" width="85%" height="85%"/>
+
+### Link Slide Up Hover Effect :zap:
+
+A Link Slide Up Hover Effect made using CSS transform property on pseudo elements ! <br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Hover%20Effects/Slide_Up_Link_Effect).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=197qmBYORraIYQdUJq3vDGUY1UJYrcpCb" width="85%" height="85%"/>
+
