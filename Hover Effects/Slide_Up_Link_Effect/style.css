@@ -1,0 +1,53 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C7F6C7;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.nav-link a {
+    position: relative;
+    display: block;
+    top: 0;
+    color: #000;
+    text-decoration: none;
+    transition: transform 350ms ease-in-out;
+}
+
+.nav-link a::before {
+    content: attr(data-link);
+    position: absolute;
+    transform: translateY(100%)
+}
+
+.nav-link:hover a {
+    transform: translateY(-100%)
+}
+
+@media(max-width: 27em) {
+    .menu {
+        flex-direction: column;
+    }
+}
