@@ -20,6 +20,10 @@ jobs:
           # Count folders in the repository
           folders=$(find . -mindepth 2 -maxdepth 2 -type d -name '[A-Z]*' ! -path '*/.*' -exec sh -c 'dirname="{}"; parent_dir=$(basename "$(dirname "$dirname")"); echo "$parent_dir" | grep -q "^[A-Z]" && echo "{}"' \; | wc -l)
           echo "folders=$folders" >> $GITHUB_ENV
+      - name: Set Git user identity
+        run: |
+            git config --global user.email "ritikaagrawal339@gmail.com"
+            git config --global user.name "Ritika Agrawal"
       - name: Update README
         run: |
           echo "Number of folders: ${{ env.folders }}" > README.md
