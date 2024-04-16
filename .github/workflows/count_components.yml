@@ -18,5 +18,5 @@ jobs:
         run: |
           #!/bin/bash
           # Count folders in the repository
-          folders=$(find . -type d -not -path '*/\.*' | wc -l)
+          folders=$(find . -type d -not -path '*/\.*' -name '[A-Z]*' | wc -l)
           echo "Number of folders: $folders"
