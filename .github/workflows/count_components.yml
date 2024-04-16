@@ -19,5 +19,5 @@ jobs:
           #!/bin/bash
           # Count folders in the repository
           # folders=$(find . -mindepth 2 -maxdepth 2 -type d -name '[A-Z]*' ! -path '*/.*' -exec sh -c 'dirname="{}"; parent_dir=$(basename "$(dirname "$dirname")"); echo "$parent_dir" | grep -q "^[A-Z]" && echo "{}"' \; | wc -l)
-          folders=$(find . -mindepth 2 -maxdepth 2 -type d -name '[A-Z]*' ! -path '*/.*' -exec sh -c 'dirname="{}"; parent_dir=$(basename "$(dirname "$dirname")"); echo "$parent_dir" | grep -q "^[A-Z]" && echo "$dirname"' \; | tee /dev/tty | wc -l)
+          folders=$(find . -mindepth 2 -maxdepth 2 -type d -name '[A-Z]*' ! -path '*/.*' -exec sh -c 'dirname="{}"; parent_dir=$(basename "$(dirname "$dirname")"); echo "$parent_dir" | grep -q "^[A-Z]" && echo "$dirname" && count=$((count+1))' \; && echo "$count")
           echo "Number of folders: $folders"
