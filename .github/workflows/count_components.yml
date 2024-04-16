@@ -26,7 +26,7 @@ jobs:
             git config --global user.name "Ritika Agrawal"
       - name: Update README
         run: |
-          echo "## ${{ env.components }} Components" > temp_readme.md
+          echo "### :dart: ${{ env.components }} Components :dart:" > temp_readme.md
           cat README.md >> temp_readme.md
           mv temp_readme.md README.md
           git add README.md
