@@ -18,5 +18,5 @@ jobs:
         run: |
           #!/bin/bash
           # Count folders in the repository
-          folders=$(find . -mindepth 2 -maxdepth 2 -type d -name '[A-Z]*' ! -path '*/.*' -exec sh -c '[[ $(basename "$(dirname "{}")") == [A-Z]* ]]' \; -print | wc -l)
+          folders=$(find . -mindepth 2 -maxdepth 2 -type d -name '[A-Z]*' ! -path '*/.*' -exec sh -c 'dirname="{}"; parent_dir=$(basename "$dirname"); [[ "$parent_dir" == [A-Z]* ]]' \; -print | wc -l)
           echo "Number of folders: $folders"
