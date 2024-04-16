@@ -1,3 +1,4 @@
+Number of folders: 70
 # css-and-js-code-snippets :yellow_heart:
 
 A collection of real-life code snippets for every web development project. Each folder contains the stylesheet and script file (if required).
