@@ -7,13 +7,13 @@ on:
   pull_request:
     branches:
       - main
-      
+
 jobs:
   count_components:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Count folders
         run: |
           #!/bin/bash
