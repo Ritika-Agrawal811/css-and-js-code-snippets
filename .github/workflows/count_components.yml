@@ -1,0 +1,22 @@
+name: Count the components
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+      
+jobs:
+  count_components:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Count folders
+        run: |
+          #!/bin/bash
+          # Count folders in the repository
+          folders=$(find . -type d -not -path '*/\.*' | wc -l)
+          echo "Number of folders: $folders"
