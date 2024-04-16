@@ -8,7 +8,7 @@ A collection of real-life code snippets for every web development project. Each 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
 
-#### Categories :maple_leaf:
+### Categories :maple_leaf:
 
 This repository is divided into mentioned categories. You may navigate accordingly to find cool web components to add to your project!
 
