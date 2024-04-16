@@ -1,0 +1,6 @@
+.github
+.vscode
+.gitignore
+node_modules
+*.json
+website/
