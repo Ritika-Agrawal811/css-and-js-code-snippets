@@ -14,10 +14,17 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Count folders
+      - name: Count Components
+        id: count_components
         run: |
           #!/bin/bash
           # Count folders in the repository
-          # folders=$(find . -mindepth 2 -maxdepth 2 -type d -name '[A-Z]*' ! -path '*/.*' -exec sh -c 'dirname="{}"; parent_dir=$(basename "$(dirname "$dirname")"); echo "$parent_dir" | grep -q "^[A-Z]" && echo "{}"' \; | wc -l)
-          folders=$(find . -mindepth 2 -maxdepth 2 -type d -name '[A-Z]*' ! -path '*/.*' -exec sh -c 'dirname="{}"; parent_dir=$(basename "$(dirname "$dirname")"); echo "$parent_dir" | grep -q "^[A-Z]" && echo "$dirname" && count=$((count+1))' \; && echo "$count")
+          folders=$(find . -mindepth 2 -maxdepth 2 -type d -name '[A-Z]*' ! -path '*/.*' -exec sh -c 'dirname="{}"; parent_dir=$(basename "$(dirname "$dirname")"); echo "$parent_dir" | grep -q "^[A-Z]" && echo "{}"' \; | wc -l)
           echo "Number of folders: $folders"
+          echo "::set-output name=folders::$folders"
+      - name: Update README
+        run: |
+          echo "Number of folders: ${{ steps.count_components.outputs.folders }}" > README.md
+          git add README.md
+          git commit -m "Update number of folders in README" || echo "No changes to commit"
+          git push
