@@ -26,7 +26,9 @@ jobs:
             git config --global user.name "Ritika Agrawal"
       - name: Update README
         run: |
-          echo "Number of folders: ${{ env.folders }}" > README.md
+          echo "Number of folders: ${{ env.folders }}" > temp_readme.md
+          cat README.md >> temp_readme.md
+          mv temp_readme.md README.md
           git add README.md
           git commit -m "Update number of folders in README" || echo "No changes to commit"
           git push
