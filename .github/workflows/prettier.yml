@@ -18,7 +18,8 @@ jobs:
         with:
           node-version: "20"
       - name: Prettier
-        run: npx prettier --write .
+        run: |
+          npx prettier --write . --ignore-path .prettierignore
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
