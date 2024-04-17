@@ -41,17 +41,11 @@ body {
   height: 100%;
   border: 1px solid #111;
   z-index: 3;
-}
-
-.book_front::before {
-  content: "";
-  position: absolute;
-  inset: 0;
   box-shadow:
-    -1px 0 0 #320a0a,
-    -2px 0.5px 0 #320a0a,
-    -3px 1px 0 #320a0a,
-    -4px 1.5px 0 #320a0a;
+  -1px 0 0 #320a0a,
+  -2px 0.5px 0 #320a0a,
+  -3px 1px 0 #320a0a,
+  -4px 1.5px 0 #320a0a;
 }
 
 .book_front-back {
