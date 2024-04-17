@@ -53,6 +53,6 @@ jobs:
                     </svg>' > temp_readme.md
           cat README.md >> temp_readme.md
           mv temp_readme.md README.md
-          git add README.md temp_readme.svg
+          git add README.md
           git commit -m "Update number of components in README" || echo "No changes to commit"
           git push
