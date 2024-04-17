@@ -50,7 +50,7 @@ jobs:
                           <text x="130" y="22" fill="#010101" fill-opacity=".3">${{ env.components }}</text>
                           <text x="130" y="22">${{ env.components }}</text>
                       </g>
-                    </svg>' > temp_readme.svg
+                    </svg>' > temp_readme.md
           cat README.md >> temp_readme.md
           mv temp_readme.md README.md
           git add README.md temp_readme.svg
