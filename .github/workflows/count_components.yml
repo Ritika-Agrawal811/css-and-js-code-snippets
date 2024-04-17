@@ -24,7 +24,7 @@ jobs:
         run: |
             git config --global user.email "ritikaagrawal339@gmail.com"
             git config --global user.name "Ritika Agrawal"
-      - name: Update README
+      - name: Add Components Count SVG
         run: |
           echo '<svg xmlns="http://www.w3.org/2000/svg" width="150" height="35">
                     <link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-custom-link"/>
@@ -50,9 +50,7 @@ jobs:
                           <text x="130" y="22" fill="#010101" fill-opacity=".3">${{ env.components }}</text>
                           <text x="130" y="22">${{ env.components }}</text>
                       </g>
-                    </svg>' > temp_readme.md
-          cat README.md >> temp_readme.md
-          mv temp_readme.md README.md
-          git add README.md
-          git commit -m "Update number of components in README" || echo "No changes to commit"
+                    </svg>' > component_count.svg
+          git add component_count.svg
+          git commit -m "Create a components count svg" || echo "No changes to commit"
           git push
