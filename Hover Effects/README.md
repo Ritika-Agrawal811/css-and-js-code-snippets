@@ -16,6 +16,7 @@ Here is a collection of subtle yet attractive hover effects examples for you!
 - [Card Hover Effect](#card-hover-effect-zap)
 - [Multi-line Underline Hover Effect](#multi-line-underline-hover-effect-zap)
 - [Link Slide Up Hover Effect](#link-slide-up-hover-effect-zap)
+- [Book Flip Hover Effect](#book-flip-hover-effect-zap)
 
 ### Button Border Fill Up Hover Effect :zap:
 
@@ -120,3 +121,11 @@ A Link Slide Up Hover Effect made using CSS transform property on pseudo element
 
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=197qmBYORraIYQdUJq3vDGUY1UJYrcpCb" width="85%" height="85%"/>
+
+### Book Flip Hover Effect :zap:
+
+A Book Flip Hover Effect made using CSS transform property! CSS variables are used to define different rotation angles and duration for each page. <br/>
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Hover%20Effects/Book_Flip_Effect).
+
+<br/>
+<img src="https://drive.google.com/uc?export=view&id=1xiGbjtq2WdkeDybMRSqx6SZvX8FLsnUK" width="85%" height="85%"/>
