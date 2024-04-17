@@ -1,3 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="35">
+          <link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-custom-link"/>
+          <link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-general-link"/>
+          <style xmlns="" lang="en" type="text/css" id="dark-mode-custom-style"/>
+          <style xmlns="" lang="en" type="text/css" id="dark-mode-native-style"/>
+          <style xmlns="" lang="en" type="text/css" id="dark-mode-native-sheet"/>
+            <linearGradient id="b" x2="0" y2="100%">
+                <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+                <stop offset="1" stop-opacity=".1"/>
+            </linearGradient>
+            <mask id="a">
+                <rect width="150" height="35" rx="3" fill="#fff"/>
+            </mask>
+            <g mask="url(#a)">
+                <rect width="110" height="35" fill="#555"/>
+                <rect x="110" width="60" height="35" fill="#2a17d1"/>
+                <rect width="150" height="35" fill="url(#b)"/>
+            </g>
+            <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="13">
+                <text x="60" y="22" fill="#010101" fill-opacity=".3">Components</text>
+                <text x="60" y="22">Components</text>
+                <text x="130" y="22" fill="#010101" fill-opacity=".3">70</text>
+                <text x="130" y="22">70</text>
+            </g>
+          </svg>
 ### :dart: 70 Components :dart:
 
 # css-and-js-code-snippets :yellow_heart:
