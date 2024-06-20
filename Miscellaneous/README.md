@@ -11,6 +11,7 @@ Here is a collection of some random web components that may be used to practice 
 - [Nav Active Link Effect](#nav-active-link-effect-zap)
 - [Items Quantity Counter](#items-quantity-counter-zap)
 - [Menu Switcher](#menu-switcher-zap)
+- [Rotating Border Animation](#rotating-border-animation-zap)
 - [Statistics Card](#statistics-card-zap)
 - [Cards Swipe Effect](#cards-swipe-effect-zap)
 - [Navigation Menu Animation](#navigation-menu-animation-zap)
