@@ -20,6 +20,6 @@ A Waves Animation where the waves are an svg. CSS transform property is used to 
 
 A Particles Animation made using HTML \<canvas> tag. JavaScript is used to draw randam circles of different colors and varying radii. requestAnimationFrame() method is used to animate these circles!
 
-:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Background%20Animations/Particles_Animation).
+:paperclip: View code [here](https://github.com/Ritika-Agrawal811/css-and-js-code-snippets/tree/main/Background%20Animations/Particles%20Animation).
 
 <img src="https://drive.google.com/uc?export=view&id=1C1_MHui3c80tt60FTrzrS85QfbjD06ST" width="85%" height="85%"/>
